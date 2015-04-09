@@ -1,0 +1,373 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "Sublime.sublime-project",
+			"settings":
+			{
+				"buffer_size": 156,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/jonathan/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+			"settings":
+			{
+				"buffer_size": 619,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/jonathan/Library/Application Support/Sublime Text 3/Packages/User/Soda Dark 3.sublime-theme",
+			"settings":
+			{
+				"buffer_size": 1435,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 269.0,
+		"selected_items":
+		[
+			[
+				"packageres",
+				"PackageResourceViewer: Extract Package"
+			],
+			[
+				"packa",
+				"Package Control: Install Package"
+			],
+			[
+				"packageresour",
+				"PackageResourceViewer: Open Resource"
+			],
+			[
+				"pack",
+				"Package Control: List Packages"
+			],
+			[
+				"pac",
+				"Package Control: Install Package"
+			],
+			[
+				"package",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 453.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"sublime.env()",
+			"sublime.path()",
+			"sublime.packages_path()",
+			"print PATH",
+			"print $PATH",
+			"env",
+			"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/jonathan/Library/Application Support/Sublime Text 3/Packages"
+	],
+	"file_history":
+	[
+		"/var/root/Library/Preferences/.GlobalPreferences.plist",
+		"/Users/jonathan/Library/Application Support/Sublime Text 3/Packages/Theme - Soda/Soda Dark 3.sublime-theme",
+		"/Users/jonathan/Library/Application Support/Sublime Text 3/Packages/User/SublimeLinter.sublime-settings",
+		"/Users/jonathan/Library/Application Support/Sublime Text 3/Packages/User/Soda Dark 3.sublime-theme",
+		"/Users/jonathan/Library/Application Support/Sublime Text 3/Packages/User/Soda Dark.sublime-theme",
+		"/Users/jonathan/Library/Application Support/Sublime Text 3/Packages/Base16/package-metadata.json",
+		"/Users/jonathan/Library/Application Support/Sublime Text 3/Packages/User/Package Control.sublime-settings",
+		"/Users/jonathan/Library/Application Support/Sublime Text 3/Packages/User/Package Control.last-run",
+		"/Users/jonathan/Library/Application Support/Sublime Text 3/Packages/Base16.bak/.git/hooks/pre-applypatch.sample",
+		"/Users/jonathan/git/zillow-web/webapp.war/WEB-INF/TopNav.html",
+		"/Users/jonathan/git/zillow-web/webapp.war/WEB-INF/howto/HowToPageOperations.html",
+		"/Users/jonathan/git/zillow-web/webapp.war/WEB-INF/webservice/TermsOfUse.html",
+		"/Users/jonathan/git/zillow-web/webapp.war/WEB-INF/jboss-web.xml",
+		"/Users/jonathan/.bash_profile",
+		"/Users/jonathan/.bashrc",
+		"/Users/jonathan/.sprinter/zillow/.env",
+		"/Users/jonathan/.sprinter/zillow/.rc",
+		"/Users/jonathan/.sprinter/sprinter/.env",
+		"/Users/jonathan/.sprinter/sprinter/.rc",
+		"/Users/jonathan/.sprinter/zillow/features/node/lib/node_modules/jshint/node_modules/htmlparser2/node_modules/entities/maps/decode.json",
+		"/Users/jonathan/git/static-all/src/static/js/z-achievements/z-achievements.js",
+		"/Users/jonathan/git/static-all/src/static/zsg/zsg.less",
+		"/Users/jonathan/git/static-all/src/static/js/z-plugin-nav/z-plugin-nav.js",
+		"/Users/jonathan/git/static-all/src/static/js/imaging/thumbnailset.js",
+		"/Users/jonathan/git/static-all/src/static/tmpl/nav/top-nav.mustache",
+		"/Users/jonathan/git/static-all/src/static/less/z-modules/top-regions.less",
+		"/Users/jonathan/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/Users/jonathan/git/static-all/src/static/js/z-plugin-dropdown/z-plugin-dropdown.js",
+		"/Users/jonathan/git/static-all/src/static/js/z-pal/z-pal.js",
+		"/Users/jonathan/git/static-all/src/static/js/z-pup/z-pup.js",
+		"/Users/jonathan/git/static-all/src/static/js/z-uploader/z-uploader.js",
+		"/Users/jonathan/Perforce/jonathanf_dev_mbp/code/candidate/build/custom_setenv/Z-0-6.zillow.com.setEnv",
+		"/Users/jonathan/Perforce/jonathanf_dev_mbp/code/candidate/ZMatching/ETLEngine/Format/FlatZillowProperty_JUNE_04.xml",
+		"/Users/jonathan/git/static-all/src/static/js/styleguide.json",
+		"/Users/jonathan/git/static-all/src/static/less/z-modules/search-map-zoom-control.less",
+		"/Users/jonathan/git/static-all/src/static/js/z-stickybar/z-stickybar.js",
+		"/Users/jonathan/git/static-all/src/static/less/z-pages/social-test.less",
+		"/Users/jonathan/git/static-all/src/static/js/z-search-type-app-methods/z-search-type-app-methods.js",
+		"/Users/jonathan/git/static-all/src/static/less/z-modules/static-content.less",
+		"/Users/jonathan/Dropbox/dev_sync/sublime_projects/Zillow UX Dev.sublime-project"
+	],
+	"find":
+	{
+		"height": 37.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"sidebar_label",
+			"Theme - Soda/Soda Dark",
+			"Soda Dark",
+			"folder-closed",
+			"\"Theme - Soda/icons/folder",
+			"toggle_side_bar",
+			"sidebar",
+			"media",
+			"/sprinter/bin",
+			"path",
+			"/Users/jonathan/"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"Custom Dark Icons",
+			"icons_dark",
+			"\"User/Theme - Soda/icons/folder",
+			"~/"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "Sublime.sublime-project",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 156,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								156,
+								156
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JSON.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/Users/jonathan/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 619,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								616,
+								616
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JSON.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/Users/jonathan/Library/Application Support/Sublime Text 3/Packages/User/Soda Dark 3.sublime-theme",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1435,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								221,
+								221
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JSON.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 2.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 33.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"project": "Sublime.sublime-project",
+	"replace":
+	{
+		"height": 66.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"topnav",
+				"Templates - ZillowWeb/ui/TopNav2014.html"
+			],
+			[
+				"z-plugin",
+				"JS/z-plugin-nav/z-plugin-nav.js"
+			],
+			[
+				"top-nav",
+				"Templates - Mustache/nav/top-nav.mustache"
+			],
+			[
+				"z-plugin-nav",
+				"JS/z-plugin-nav/z-plugin-nav.js"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 250.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

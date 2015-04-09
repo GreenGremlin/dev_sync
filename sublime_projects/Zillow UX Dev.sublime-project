@@ -1,0 +1,76 @@
+{
+	"folders":
+	[
+		{
+			"name": "JS",
+			"path": "~/git/static-all/src/static/js"
+		},
+		{
+			"folder_exclude_patterns":
+			[
+				"layout",
+				"local",
+				"maps",
+				"pages",
+				"search",
+				"theme",
+				"module",
+				"themes"
+			],
+			"name": "LESS",
+			"path": "~/git/static-all/src/static/less"
+		},
+		{
+			"name": "ZSG",
+			"path": "~/git/static-all/src/static/zsg"
+		},
+		{
+			"name": "Images",
+			"path": "~/git/static-all/src/static/images"
+		},
+		{
+			"name": "Fonts",
+			"path": "~/git/static-all/src/static/fonts"
+		},
+		{
+			"name": "Templates - Mustache",
+			"path": "~/git/static-all/src/static/tmpl"
+		},
+		{
+			"name": "Templates - ZillowWeb",
+			"path": "~/git/zillow-web/webapp.war/WEB-INF"
+		},
+		{
+			"file_exclude_patterns":
+			[
+				"*.class"
+			],
+			"name": "Java - ZillowWeb",
+			"path": "~/git/zillow-web/src/main/java/com/zillow"
+		},
+		{
+			"name": "Perforce",
+			"path": "~/Perforce/jonathanf_dev_mbp/code"
+		},
+		{
+			"name": "Tools",
+			"path": "~/git/zillow-web/tools"
+		},
+		{
+			"name": "Release Platform (develop)",
+			"path": "~/git/release-platform/dev"
+		},
+		{
+			"name": "Release Platform (release)",
+			"path": "~/git/release-platform/production/release_candidate"
+		},
+		{
+			"name": "Manifest Config",
+			"path": "~/git/manifestconfig/configs"
+		},
+		{
+			"name": "CSS (target)",
+			"path": "~/git/static-all/target/static/css"
+		}
+	]
+}

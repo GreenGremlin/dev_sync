@@ -1,0 +1,29 @@
+{
+	"folders":
+	[
+		{
+			"name": "Controllers",
+			"path": "../git/tg.home-values/HomeValues/home_values/controllers"
+		},
+		{
+			"name": "Templates",
+			"path": "../git/tg.home-values/HomeValues/home_values/templates"
+		},
+		{
+			"name": "Data",
+			"path": "../git/tg.home-values/HomeValues/home_values/data"
+		},
+		{
+			"name": "Config",
+			"path": "../git/tg.home-values/HomeValues/home_values/config"
+		},
+		{
+			"name": "Tests",
+			"path": "tests"
+		},
+		{
+            "name": "All Files",
+			"path": "../git/tg.home-values/HomeValues/home_values/"
+		}
+	]
+}

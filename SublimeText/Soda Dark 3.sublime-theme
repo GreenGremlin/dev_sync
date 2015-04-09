@@ -1,0 +1,48 @@
+[
+
+//
+// SIDEBAR
+//
+    {
+        "class": "sidebar_label",
+        "font.bold": false,
+        "font.italic": false, // <-- add comma
+        "font.size": 13 // <-- new line
+        // , "shadow_color": [30, 30, 30], "shadow_offset": [1,1]
+    },
+//
+// SIDEBAR - GENERAL FILE ICONS
+//
+    {
+        "class": "icon_folder",
+        "layer0.texture": "User/Custom Dark Icons/folder-closed.png",
+        "layer0.opacity": 1.0,
+        "content_margin": [8, 8]
+    },
+    {
+        "class": "icon_folder",
+        "parents": [{"class": "tree_row", "attributes": ["hover"]}],
+        "layer0.texture": "User/Custom Dark Icons/folder-closed.png"
+    },
+    {
+        "class": "icon_folder",
+        "parents": [{"class": "tree_row", "attributes": ["selected"]}],
+        "layer0.texture": "User/Custom Dark Icons/folder-closed.png"
+    },
+    // Sidebar folder open
+    {
+        "class": "icon_folder",
+        "parents": [{"class": "tree_row", "attributes": ["expanded"]}],
+        "layer0.texture": "User/Custom Dark Icons/folder-open.png"
+    },
+    {
+        "class": "icon_folder",
+        "parents": [{"class": "tree_row", "attributes": ["expanded", "hover"]}],
+        "layer0.texture": "User/Custom Dark Icons/folder-open.png"
+    },
+    {
+        "class": "icon_folder",
+        "parents": [{"class": "tree_row", "attributes": ["expanded", "selected"]}],
+        "layer0.texture": "User/Custom Dark Icons/folder-open.png"
+    }
+]

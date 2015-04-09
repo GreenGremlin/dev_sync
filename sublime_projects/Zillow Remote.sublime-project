@@ -1,0 +1,35 @@
+{
+	"folders":
+	[
+        {
+            "name": "JavaScript",
+            "follow_symlinks": true,
+            "path": "/Volumes/mac_static-all_js"
+        },
+        {
+            "name": "Less",
+            "follow_symlinks": true,
+            "path": "/Volumes/mac_static-all_less"
+        },
+        // {
+        //     "name": "CSS",
+        //     "follow_symlinks": true,
+        //     "path": "/Volumes/jmac_static-all_css"
+        // },
+        {
+            "name": "ZSG",
+            "follow_symlinks": true,
+            "path": "/Volumes/mac_static-all_zsg"
+        },
+        {
+            "name": "ZillowWeb - Templates",
+            "follow_symlinks": true,
+            "path": "/Volumes/mac_zillow-web_templates"
+        },
+        {
+            "name": "ZillowWeb - Java",
+            "follow_symlinks": true,
+            "path": "/Volumes/mac_zillow-web_java"
+        }
+	]
+}

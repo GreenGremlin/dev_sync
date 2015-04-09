@@ -1,0 +1,366 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "Zillow Remote.sublime-project",
+			"settings":
+			{
+				"buffer_size": 893,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 375.0,
+		"selected_items":
+		[
+			[
+				"package",
+				"Package Control: Install Package"
+			],
+			[
+				"pack",
+				"Package Control: Remove Package"
+			],
+			[
+				"packa",
+				"Package Control: Install Package"
+			],
+			[
+				"pac",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 453.0
+	},
+	"console":
+	{
+		"height": 302.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Volumes/mac_static-all_js",
+		"/Volumes/mac_static-all_less",
+		"/Volumes/mac_zillow-web_templates"
+	],
+	"file_history":
+	[
+		"/Volumes/mac_static-all_less/z-modules/searchbar-modernized-narrow.less",
+		"/Volumes/mac_static-all_less/z-modules/searchbar-modernized.less",
+		"/Volumes/mac_static-all_less/z-modules/header-modernized.less",
+		"/Volumes/mac_zillow-web_templates/geo/GeoSearchBar.html",
+		"/Volumes/mac_zillow-web_templates/PageWrapper.html",
+		"/Volumes/mac_static-all_less/z-modules/profile-admin.less",
+		"/Volumes/mac_static-all_js/z-google-tag-manager/z-google-tag-manager.js",
+		"/Volumes/mac_static-all_js/test/unit/z-google-tag-manager-test.html",
+		"/Volumes/mac_static-all_js/z-google-maps-api/z-google-maps-api.js",
+		"/Volumes/mac_static-all_js/z-gzip/z-gzip.js",
+		"/Volumes/mac_static-all_js/z-achievements/z-achievements.js",
+		"/Volumes/mac_static-all_zsg/zsg.less",
+		"/Volumes/mac_static-all_js/test/unit/google-plus-one-test.html",
+		"/Volumes/mac_zillow-web_templates/ads/GoogleAdsense.html",
+		"/Volumes/mac_zillow-web_templates/geo/GeoOpenHouseSampler.html",
+		"/Volumes/mac_static-all_less/global.less",
+		"/Volumes/mac_zillow-web_templates/AjaxRender.html",
+		"/Volumes/mac_static-all_js/test/unit/z-user-account-google-plus-auto-signin-test.html",
+		"/Volumes/mac_static-all_js/z-user-account-google-plus-auto-signin/z-user-account-google-plus-auto-signin.js",
+		"/Volumes/mac_static-all_js/test/unit/z-google-maps-api-test.html",
+		"/Volumes/mac_static-all_js/z-user-account-google-plus-signin/z-user-account-google-plus-signin.js",
+		"/Volumes/mac_zillow-web_templates/ShowError.html",
+		"/Volumes/mac_static-all_js/styleguide.json",
+		"/Volumes/mac_zillow-web_templates/GlobalErrorMessage.html",
+		"/Volumes/jonathanf-mac---static-all/src/static/less/z-modules/searchbar-modernized.less",
+		"/Volumes/mac_static-all_less/z-modules/widget-zillowsearchbox.less",
+		"/Volumes/mac_zillow-web_templates/borderNav/GeoNationStateNav.html",
+		"/Volumes/mac_zillow-web_templates/ads/GeoShell.html",
+		"/Volumes/mac_static-all_less/z-pages/geo.less",
+		"/Volumes/jonathanf-mac---static-all(less)/z-modules/header-modernized.less",
+		"/Volumes/jonathanf-mac---static-all(less)/z-modules/widget-zillowsearchbox.less",
+		"/Volumes/jonathanf-mac---static-all(js)/src/widgets/ZillowLargeSearchBoxPage.js",
+		"/Volumes/jonathanf-mac---static-all(less)/z-modules/mortgage-shopping-dist-email-a-friend.less",
+		"/Volumes/jonathanf-mac---static-all(less)/z-pages/geo.less",
+		"/Volumes/jonathanf-mac---static-all(js)/src/instrumentation/global-end.js",
+		"/Volumes/jonathanf-mac---static-all(less)/global.less",
+		"/Users/jonathan/Dropbox/dev_sync/sublime_projects/Zillow Remote.sublime-project",
+		"/Volumes/jonathanf-mac---static-all/src/static/less/z-modules/header-modernized.less",
+		"/Volumes/jonathanf-mac---zillow-web/webapp.war/WEB-INF/PageWrapper.html",
+		"/Volumes/jonathanf-mac---zillow-web/webapp.war/WEB-INF/geo/GeoSearchBar.html",
+		"/Volumes/jonathanf-mac---static-all/src/static/less/z-modules/header-deprecated.less",
+		"/Volumes/jonathanf-mac---static-all/src/static/less/z-modules/header.less",
+		"/Volumes/jonathanf-mac---static-all/src/static/less/mixins/headers.less",
+		"/Volumes/jonathanf-mac---zillow-web/webapp.war/WEB-INF/editing/HomeFactsEditor.html",
+		"/Volumes/jonathanf-mac---zillow-web/webapp.war/WEB-INF/HDPClick.html",
+		"/Volumes/jonathanf-mac---zillow-web/webapp.war/WEB-INF/expensiveHomes/SearchBar.html",
+		"/Volumes/jonathanf-mac---zillow-web/webapp.war/WEB-INF/ShowError.html",
+		"/Volumes/jonathanf-mac---static-all/src/static/js/styleguide.json",
+		"/Volumes/jonathanf-mac---static-all/src/static/js/myestimator/search.js",
+		"/Volumes/jonathanf-mac---zillow-web/webapp.war/WEB-INF/abs/SetABCookie.html",
+		"/Volumes/jonathanf-mac---zillow-web/webapp.war/WEB-INF/PageEmailer.html",
+		"/Volumes/jonathanf-mac---static-all/src/static/js/z-profile-ads-roi-graph/z-profile-ads-roi-graph.js",
+		"/Volumes/jonathanf-mac---static-all/src/static/less/z-modules/profile-admin.less",
+		"/Volumes/jonathanf-mac---zillow-web/webapp.war/WEB-INF/PALSignature.html",
+		"/Volumes/jonathanf-mac---zillow-web/webapp.war/WEB-INF/ui/Lightbox.html",
+		"/Volumes/jonathanf-mac---static-all/src/static/less/z-modules/lightbox.less",
+		"/Volumes/jonathanf-mac---zillow-web/webapp.war/WEB-INF/homedetail/image/HdpPhotoLightBox.html",
+		"/Volumes/jonathanf-mac---zillow-web/webapp.war/WEB-INF/mobile/util/LegacyIPhadLink.html",
+		"/Volumes/jonathanf-mac---zillow-web/webapp.war/WEB-INF/Logout.html",
+		"/Volumes/jonathanf-mac---static-all/src/static/js/src/instrumentation/global-end.js",
+		"/Volumes/jonathanf-mac---static-all/src/static/less/global.less",
+		"/Volumes/jonathanf-mac---static-all/src/static/less/z-modules/searchbar-modernized-narrow.less",
+		"/Volumes/jonathanf-mac---zillow-web/webapp.war/WEB-INF/mortgage/calculator/Should-I-convert-to-bi-weekly-payment-schedule.html",
+		"/Volumes/jonathanf-mac---zillow-web/webapp.war/WEB-INF/mortgage/calculator/Should-I-pay-discount-points.html",
+		"/Volumes/jonathanf-mac---zillow-web/webapp.war/WEB-INF/webtools/widgets/agent-listings-map-widget.html",
+		"/Volumes/jonathanf-mac---zillow-web/webapp.war/WEB-INF/zsg/StyleGuideIncludes.html",
+		"/Volumes/jonathanf-mac---zillow-web/webapp.war/WEB-INF/advertising/zillow-special-offers.html",
+		"/Volumes/jonathanf-mac---zillow-web/webapp.war/WEB-INF/Zillow.application",
+		"/Volumes/jonathanf-mac---zillow-web/webapp.war/WEB-INF/web_jetty.xml",
+		"/Volumes/jonathanf-mac---zillow-web/webapp.war/WEB-INF/advertising/Home_improvement.html",
+		"/Volumes/jonathanf-mac---zillow-web/webapp.war/WEB-INF/styleguide/segmented_control/index.html",
+		"/Volumes/jonathanf-mac---zillow-web/webapp.war/WEB-INF/AjaxRender.html",
+		"/Volumes/jonathanf-mac---zillow-web/webapp.war/WEB-INF/ads/GutterAdLink.html",
+		"/Volumes/jonathanf-mac---zillow-web/webapp.war/WEB-INF/agentwebsite/GetUserData.html",
+		"/Volumes/jonathanf-mac---zillow-web/webapp.war/WEB-INF/ads/GooglePubTagAdLink.html",
+		"/Volumes/jonathanf-mac---zillow-web/webapp.war/WEB-INF/advertising/PowerAgentList.html",
+		"/Volumes/jonathanf-mac---static-all/src/static/zsg/z-base/zsg-icons.less",
+		"/Volumes/jonathanf-mac---static-all/src/static/zsg/mixins/_icons.less",
+		"/Volumes/jonathanf-mac---static-all/src/static/zsg/z-base/zsg-badges.less",
+		"/Volumes/jonathanf-mac---static-all/src/static/zsg/z-base/zsg-grids.less",
+		"/Volumes/jonathanf-mac---static-all/src/static/js/z-stickybar/z-stickybar.js",
+		"/Volumes/jonathanf-mac---static-all/src/static/zsg/zsg.less",
+		"/Volumes/jonathanf-mac---static-all/src/static/less/_mixins.less",
+		"/Volumes/jonathanf-mac---static-all/src/static/js/z-plugin-search-mode-switch/z-plugin-search-mode-switch.js",
+		"/Volumes/jonathanf-mac---static-all/src/static/js/z-curbshots-moderate/z-curbshots-moderate.js",
+		"/Volumes/jonathanf-mac---static-all/src/static/js/resurrection/SearchMain.js",
+		"/Volumes/jonathanf-mac---static-all/src/static/js/z-search-affordability-filter-exposed/z-search-affordability-filter-exposed.js",
+		"/Volumes/jonathanf-mac---static-all/src/static/js/z-sem-search-bar/z-sem-search-bar.js",
+		"/Volumes/jonathanf-mac---static-all/src/static/js/z-home-search-bar/z-home-search-bar.js",
+		"/Volumes/jonathanf-mac---zillow-web/webapp.war/WEB-INF/search/Search.html",
+		"/Volumes/jonathanf-mac---zillow-web/webapp.war/WEB-INF/Showcaseads.html",
+		"/Volumes/jonathanf-mac---zillow-web/webapp.war/WEB-INF/ads/GeoShell.html",
+		"/Volumes/jonathanf-mac---zillow-web/webapp.war/WEB-INF/ads/Geo.html",
+		"/Volumes/jonathanf-mac---zillow-web/webapp.war/WEB-INF/geo/GeoRegionDescription.html",
+		"/Volumes/jonathanf-mac---zillow-web/webapp.war/WEB-INF/geo/GeoRegionRealEstate.html",
+		"/Volumes/jonathanf-mac---zillow-web/webapp.war/WEB-INF/geo/GeoRegionZestimateAndHistoricalTable.html",
+		"/Volumes/jonathanf-mac---zillow-web/webapp.war/WEB-INF/GlobalErrorMessage.html",
+		"/Users/jonathan/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings"
+	],
+	"find":
+	{
+		"height": 27.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"svgicons",
+			"renderblock",
+			"searchInput",
+			"expando-search-field",
+			"-target",
+			"expando-search-field",
+			"searchbar-clear",
+			"close",
+			"&",
+			"expandoSearch"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"searchField"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "Zillow Remote.sublime-project",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 893,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								445,
+								445
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JSON.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 27.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"project": "Zillow Remote.sublime-project",
+	"replace":
+	{
+		"height": 50.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"pagewra",
+				"ZillowWeb - Templates/PageWrapper.html"
+			],
+			[
+				"searchbar-mod",
+				"Less/z-modules/searchbar-modernized-narrow.less"
+			],
+			[
+				"searchbar-m",
+				"Less/z-modules/searchbar-modernized.less"
+			],
+			[
+				"header-mod",
+				"Less/z-modules/header-modernized.less"
+			],
+			[
+				"geosear",
+				"ZillowWeb - Templates/geo/GeoSearchBar.html"
+			],
+			[
+				"pagewr",
+				"ZillowWeb - Templates/PageWrapper.html"
+			],
+			[
+				"lightbox",
+				"ZillowWeb - Templates/ui/Lightbox.html"
+			],
+			[
+				"geosearch",
+				"ZillowWeb - Templates/geo/GeoSearchBar.html"
+			],
+			[
+				"zsg-ic",
+				"ZSG/z-base/zsg-icons.less"
+			],
+			[
+				"_icon",
+				"ZSG/mixins/_icons.less"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 256.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

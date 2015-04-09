@@ -1,0 +1,24 @@
+{
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"Base16 Color Schemes",
+		"Color Highlighter",
+		"Git",
+		"GitGutter",
+		"HTML Mustache",
+		"HTML-CSS-JS Prettify",
+		"Javascript Beautify",
+		"JavaScript Completions",
+		"LESS",
+		"Less2Css",
+		"Package Control",
+		"PackageResourceViewer",
+		"SideBarEnhancements",
+		"SublimeLinter",
+		"SublimeLinter-jshint",
+		"Theme - Soda"
+	]
+}

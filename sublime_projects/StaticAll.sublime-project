@@ -1,0 +1,50 @@
+{
+    "folders":
+    [
+        {
+            "file_exclude_patterns":
+            [
+                "*-concat.js"
+            ],
+            "name": "JS",
+            "path": "../git/static-all/src/static/js"
+        },
+        {
+            "file_exclude_patterns":
+            [
+                "*-concat.js"
+            ],
+            "name": "D3",
+            "path": "../git/static-all/src/static/d3"
+        },
+        {
+            "name": "LESS",
+            "path": "../git/static-all/src/static/less",
+            "folder_exclude_patterns": ["layout", "local", "maps", "pages", "search", "theme", "module", "themes"]
+        },
+        {
+            "name": "CSS",
+            "path": "../git/static-all/src/static/css"
+        },
+        {
+            "name": "CSS (target)",
+            "path": "../git/static-all/target/static/css"
+        },
+        {
+            "name": "JS Templates",
+            "path": "../git/static-all/src/static/tmpl"
+        },
+        {
+            "name": "Tools",
+            "path": "tools"
+        },
+        {
+            "name": "YUI Gallery",
+            "path": "../git/static-all/src/static/yui/gallery"
+        },
+        {
+            "name": "Images",
+            "path": "../git/static-all/src/static/images"
+        }
+    ]
+}

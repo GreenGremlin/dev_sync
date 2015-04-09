@@ -1,0 +1,1060 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"near",
+				"nearby_regions"
+			],
+			[
+				"min",
+				"min-width"
+			],
+			[
+				"con",
+				"container"
+			],
+			[
+				"b",
+				"Block"
+			],
+			[
+				"com",
+				"components"
+			],
+			[
+				"succ",
+				"success_block"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 375.0,
+		"selected_items":
+		[
+			[
+				"per",
+				"Perforce: Checkout"
+			],
+			[
+				"jslin",
+				"JSLint: Run JSLint"
+			],
+			[
+				"jsl",
+				"JSLint: Run JSLint"
+			],
+			[
+				"jsli",
+				"JSLint: Run JSLint"
+			],
+			[
+				"lint",
+				"JSLint: Run JSLint"
+			],
+			[
+				"p",
+				"Perforce: Checkout"
+			],
+			[
+				"perfor",
+				"Perforce: Login"
+			],
+			[
+				"Perfor",
+				"Perforce: Checkout"
+			],
+			[
+				"Per",
+				"Perforce: Add"
+			],
+			[
+				"perf",
+				"Perforce: Checkout"
+			],
+			[
+				"packa",
+				"Package Control: Install Package"
+			],
+			[
+				"Pack",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Con",
+				"Package Control: Discover Packages"
+			]
+		],
+		"width": 588.0
+	},
+	"console":
+	{
+		"height": 167.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/jonathan/git/tg.home-values/HomeValues/home_values/templates/homevalues/market_health.html",
+		"/Users/jonathan/git/tg.home-values/HomeValues/home_values/lib/formatters.py",
+		"/Users/jonathan/git/tg.home-values/HomeValues/home_values/templates/homevalues/chart_filters.html",
+		"/Users/jonathan/git/tg.home-values/HomeValues/home_values/controllers/homevalues.py",
+		"/Users/jonathan/git/tg.home-values/HomeValues/home_values/templates/homevalues/market_paragraph.html",
+		"/Users/jonathan/git/tg.home-values/HomeValues/home_values/templates/homevalues/nearby_regions.html",
+		"/Users/jonathan/git/tg.home-values/HomeValues/home_values/templates/homevalues/region_comparison.html",
+		"/Users/jonathan/git/tg.home-values/HomeValues/home_values/templates/homevalues/index.html",
+		"/Users/jonathan/git/tg.home-values/HomeValues/home_values/lib/region_info.py",
+		"/Users/jonathan/git/tg.home-values/HomeValues/home_values/templates/homevalues/chart.html",
+		"/Users/jonathan/git/tg.home-values/HomeValues/home_values/templates/homevalues/macros.html",
+		"/Users/jonathan/git/tg.home-values/HomeValues/home_values/templates/index.html",
+		"/Users/jonathan/git/tg.home-values/HomeValues/home_values/templates/homevalues/market_overview.html",
+		"/Users/jonathan/sublime_projects/HomeValues.sublime-project",
+		"/Users/jonathan/git/tg.home-values/HomeValues/home_values/templates/homevalues/listings_and_sales.html",
+		"/Users/jonathan/git/tg.home-values/HomeValues/home_values/templates/homevalues/rentals_info.html",
+		"/Users/jonathan/git/tg.home-values/HomeValues/home_values/config/app_cfg.py",
+		"/Users/jonathan/git/tg.home-values/HomeValues/home_values/templates/homevalues/listings_to_sales.html",
+		"/Users/jonathan/git/tg.home-values/HomeValues/home_values/templates/homevalues/region_info.html",
+		"/Users/jonathan/git/tg.home-values/HomeValues/home_values/templates/base.html",
+		"/Users/jonathan/git/tg.home-values/HomeValues/home_values/controllers/mobile_homevalues.py",
+		"/Users/jonathan/git/tg.home-values/HomeValues/home_values/templates/homevalues/nearby_cities.html",
+		"/Users/jonathan/git/tg.home-values/HomeValues/home_values/templates/homevalues/affordability_calculator.html",
+		"/Users/jonathan/git/tg.home-values/HomeValues/home_values/controllers/root.py",
+		"/Users/jonathan/git/tg.home-values/HomeValues/home_values/controllers/mobile_root.py",
+		"/Users/jonathan/git/tg.home-values/HomeValues/home_values/templates/homevalues/chart-filters.html",
+		"/Users/jonathan/git/tg.home-values/HomeValues/home_values/templates/layouts/grids.html",
+		"/Users/jonathan/git/tg.home-values/HomeValues/home_values/templates/homevalues.html",
+		"/Users/jonathan/git/tg.home-values/HomeValues/home_values/templates/market_health.html",
+		"/Users/jonathan/git/tg.home-values/HomeValues/home_values/templates/listings_to_sales.html",
+		"/Users/jonathan/git/tg.home-values/HomeValues/home_values/templates/nearby_cities.html",
+		"/Users/jonathan/git/tg.home-values/HomeValues/home_values/templates/market_overview.html",
+		"/Users/jonathan/git/tg.home-values/HomeValues/home_values/templates/region_info.html",
+		"/Users/jonathan/git/tg.home-values/HomeValues/home_values/templates/rentals_info.html",
+		"/Users/jonathan/git/tg.home-values/HomeValues/home_values/templates/layouts/1-3_2-3.html",
+		"/Users/jonathan/git/tg.home-values/HomeValues/home_values/templates/factoids.html",
+		"/Users/jonathan/git/tg.home-values/HomeValues/home_values/tests/functional/test_homevalues.py",
+		"/Users/jonathan/git/tg.schools/Schools/schools/templates/school_details_v2.mustache",
+		"/Users/jonathan/git/tg.schools/Schools/schools/templates/school_hdp_v2.mustache",
+		"/Users/jonathan/git/tg.schools/Schools/schools/controllers/school_hdp.py",
+		"/Users/jonathan/git/tg.schools/Schools/schools/templates/school_hdp.mustache",
+		"/Users/jonathan/Dropbox/Zillow/review-working-text.txt",
+		"/Users/jonathan/git/tg.schools/Schools/schools/controllers/school_details.py",
+		"/Users/jonathan/git/tg.schools/Schools/schools/templates/bing_map_view.mustache",
+		"/Users/jonathan/git/tg.schools/Schools/schools/templates/school_search_v2.mustache",
+		"/Users/jonathan/git/tg.schools/Schools/schools/controllers/school_search.py",
+		"/Users/jonathan/git/tg.schools/Schools/schools/templates/school_filters.mustache",
+		"/Users/jonathan/git/tg.schools/Schools/schools/templates/school_search.mustache",
+		"/Users/jonathan/git/tg.schools/Schools/schools/templates/schools_list.mustache",
+		"/Users/jonathan/git/tg.schools/Schools/schools/validators/__init__.py",
+		"/Users/jonathan/git/tg.schools/Schools/schools/Schools.sublime-project",
+		"/Users/jonathan/git/tg.schools/Schools/schools/templates/school_details.mustache",
+		"/Users/jonathan/Perforce/jonathanf_dev_mbp/code/comp_rel_b/ZillowWeb/webapp.war/static/less/module/nav-primary.less",
+		"/Users/jonathan/Perforce/jonathanf_dev_mbp/code/comp_rel_b/ZillowWeb/webapp.war/static/css/module/nav-primary.css",
+		"/Users/jonathan/Perforce/jonathanf_dev_mbp/code/comp_rel_b/ZillowWeb/webapp.war/static/css/module/search.css",
+		"/Users/jonathan/Perforce/jonathanf_dev_mbp/code/comp_rel_b/ZillowWeb/webapp.war/WEB-INF/auth/AuthWrapper.html",
+		"/Users/jonathan/Perforce/jonathanf_dev_mbp/code/comp_rel_b/ZillowWeb/webapp.war/static/css/base/layout.css",
+		"/Users/jonathan/Perforce/jonathanf_dev_mbp/code/comp_rel_b/ZillowWeb/webapp.war/static/less/layout.less",
+		"/Users/jonathan/Perforce/jonathanf_dev_mbp/code/comp_rel_b/ZillowWeb/webapp.war/static/less/reset.less",
+		"/Users/jonathan/Perforce/jonathanf_dev_mbp/code/comp_rel_b/ZillowWeb/webapp.war/static/css/reset.css",
+		"/Users/jonathan/Perforce/jonathanf_dev_mbp/code/comp_rel_b/ZillowWeb/webapp.war/static/less/media-queries.less",
+		"/Users/jonathan/Perforce/jonathanf_dev_mbp/code/comp_rel_b/ZillowWeb/webapp.war/static/css/global.css",
+		"/Users/jonathan/Perforce/jonathanf_dev_mbp/code/comp_rel_b/ZillowWeb/webapp.war/static/css/help/overview.css",
+		"/Users/jonathan/Perforce/jonathanf_dev_mbp/code/comp_rel_b/ZillowWeb/webapp.war/static/less/module/login-block.less",
+		"/Users/jonathan/Perforce/jonathanf_dev_mbp/code/comp_rel_b/ZillowWeb/webapp.war/static/less/pages/local.less",
+		"/Users/jonathan/Perforce/jonathanf_dev_mbp/code/comp_rel_b/ZillowWeb/webapp.war/static/css/pages/local.css",
+		"/Users/jonathan/Perforce/jonathanf_dev_mbp/code/comp_rel_b/ZillowWeb/webapp.war/static/less/variables.less",
+		"/Users/jonathan/Perforce/jonathanf_dev_mbp/code/comp_rel_b/ZillowWeb/webapp.war/static/less/home-improvement/digs-boards.less",
+		"/Users/jonathan/Perforce/jonathanf_dev_mbp/code/comp_rel_b/ZillowWeb/webapp.war/static/less/home-improvement/digs.less",
+		"/Users/jonathan/Perforce/jonathanf_dev_mbp/code/comp_rel_b/ZillowWeb/webapp.war/WEB-INF/TopNav.html",
+		"/Users/jonathan/Perforce/jonathanf_dev_mbp/code/comp_rel_b/ZillowWeb/webapp.war/static/less/mixins.less",
+		"/Users/jonathan/Perforce/jonathanf_dev_mbp/code/comp_rel_b/ZillowWeb/webapp.war/WEB-INF/Border.html",
+		"/Users/jonathan/Perforce/jonathanf_dev_mbp/code/comp_rel_b/ZillowWeb/src/main/java/com/zillow/web/components/cms/DjangoCMSBorder.java",
+		"/Users/jonathan/Perforce/jonathanf_dev_mbp/code/comp_rel_b/ZillowWeb/webapp.war/static/css/module/login-block.css",
+		"/Users/jonathan/Perforce/jonathanf_dev_mbp/code/comp_rel_b/ZillowWeb/webapp.war/static/css/home-improvement/digs.css",
+		"/Users/jonathan/Perforce/jonathanf_dev_mbp/code/comp_rel_b/ZillowWeb/src/main/java/com/zillow/web/components/Border.java",
+		"/Users/jonathan/Perforce/jonathanf_dev_mbp/code/comp_rel_b/ZillowWeb/src/main/java/com/zillow/web/components/TopNav.java",
+		"/Users/jonathan/Perforce/jonathanf_dev_mbp/code/comp_rel_b/ZillowWeb/webapp.war/WEB-INF/jsonp/Hdp.html",
+		"/Users/jonathan/Perforce/jonathanf_dev_mbp/code/comp_rel_b/ZillowWeb/webapp.war/static/less/module/nav-responsive.less",
+		"/Users/jonathan/Perforce/jonathanf_dev_mbp/code/comp_rel_b/ZillowWeb/webapp.war/static/less/module/logo.less",
+		"/Users/jonathan/Perforce/jonathanf_dev_mbp/code/comp_rel_b/ZillowWeb/webapp.war/static/css/user/auth-base-ab.css",
+		"/Users/jonathan/Perforce/jonathanf_dev_mbp/code/comp_rel_b/ZillowWeb/webapp.war/static/css/user/auth-lightbox.css",
+		"/Users/jonathan/Perforce/jonathanf_dev_mbp/code/comp_rel_b/ZillowWeb/webapp.war/WEB-INF/help/Index.html",
+		"/Users/jonathan/Perforce/jonathanf_dev_mbp/code/comp_rel_b/ZillowWeb/webapp.war/WEB-INF/cms/DjangoCMSBorder.html",
+		"/Users/jonathan/Perforce/jonathanf_dev_mbp/code/comp_rel_b/ZillowWeb/webapp.war/static/less/chrome.less",
+		"/Users/jonathan/Perforce/jonathanf_dev_mbp/code/comp_rel_b/ZillowWeb/webapp.war/static/css/chrome.css",
+		"/Users/jonathan/Perforce/jonathanf_dev_mbp/code/comp_rel_b/ZillowWeb/webapp.war/WEB-INF/ResponsiveNavMenu.html",
+		"/Users/jonathan/Perforce/jonathanf_dev_mbp/code/comp_rel_b/ZillowWeb/webapp.war/WEB-INF/schools/SchoolDetailsPage.html",
+		"/Users/jonathan/Perforce/jonathanf_dev_mbp/code/comp_rel_b/ZillowWeb/webapp.war/static/css/master.css",
+		"/Users/jonathan/Perforce/jonathanf_dev_mbp/code/comp_rel_b/ZillowWeb/webapp.war/static/css/module/logo.css",
+		"/Users/jonathan/Perforce/jonathanf_dev_mbp/code/comp_rel_b/ZillowWeb/RelB.sublime-project",
+		"/Users/jonathan/Perforce/jonathanf_dev_mbp/code/comp_rel_b/ZillowWeb/webapp.war/WEB-INF/mortgage/help/HelpOverview.html",
+		"/Users/jonathan/Perforce/jonathanf_dev_mbp/code/comp_rel_b/ZillowWeb/webapp.war/WEB-INF/schools/TGNearbySchools.html",
+		"/Users/jonathan/Perforce/jonathanf_dev_mbp/code/comp_rel_b/ZillowWeb/webapp.war/static/js/z-bing-map-view/z-bing-map-view.js",
+		"/Users/jonathan/Perforce/jonathanf_dev_mbp/code/comp_rel_b/ZillowWeb/webapp.war/static/pages/visuals/neg-equity-map/v1/js/Bing2.js",
+		"/Users/jonathan/Perforce/jonathanf_dev_mbp/code/comp_rel_b/ZillowWeb/webapp.war/static/pages/visuals/neg-equity-map/v1/js/Bing.js",
+		"/Users/jonathan/Perforce/jonathanf_dev_mbp/code/comp_rel_a/ZillowWeb/webapp.war/static/pages/visuals/neg-equity-map/v1/js/Bing.js",
+		"/Users/jonathan/Perforce/jonathanf_dev_mbp/code/comp_rel_a/ZillowWeb/webapp.war/static/js/src/thirdparty/FacebookLike.js",
+		"/Users/jonathan/Perforce/jonathanf_dev_mbp/code/comp_traffic/ZillowWeb/webapp.war/WEB-INF/visuals/Index.html",
+		"/Users/jonathan/Perforce/jonathanf_dev_mbp/code/comp_rel_a/ZillowWeb/RelA.sublime-project",
+		"/Users/jonathan/Perforce/jonathanf_dev_mbp/code/comp_traffic/ZillowWeb/webapp.war/static/js/src/zillow/EmailAFriend.js",
+		"/Users/jonathan/Perforce/jonathanf_dev_mbp/code/comp_traffic/ZillowWeb/webapp.war/static/js/src/ux/AjaxFormLightbox.js",
+		"/Users/jonathan/Perforce/jonathanf_dev_mbp/code/comp_traffic/ZillowWeb/webapp.war/static/js/z-email-a-friend-mgr/z-email-a-friend-mgr.js",
+		"/Users/jonathan/Perforce/jonathanf_dev_mbp/code/comp_traffic/ZillowWeb/src/main/java/com/zillow/web/components/email/EmailAFriend.java",
+		"/Users/jonathan/Perforce/jonathanf_dev_mbp/code/comp_traffic/ZillowWeb/src/main/java/com/zillow/web/components/homedetail/toolbox/menus/EmailAlert.java",
+		"/Users/jonathan/Perforce/jonathanf_dev_mbp/code/comp_traffic/ZillowWeb/webapp.war/WEB-INF/homedetail/toolbox/menus/EmailAlert.html",
+		"/Users/jonathan/Perforce/jonathanf_dev_mbp/code/comp_traffic/ZillowWeb/webapp.war/WEB-INF/email/EmailAFriend.html",
+		"/Users/jonathan/Perforce/jonathanf_dev_mbp/code/comp_traffic/ZillowWeb/webapp.war/static/css/general/email-a-friend.css",
+		"/etc/apache2/extra/httpd-dav.conf",
+		"/Users/jonathan/Perforce/jonathanf_dev_mbp/code/comp_traffic/ZillowWeb/src/main/java/com/zillow/web/pages/visuals/Index.java",
+		"/Users/jonathan/Perforce/jonathanf_dev_mbp/code/comp_traffic/ZillowWeb/src/main/java/com/zillow/web/pages/email/EmailAFriendRequest.java",
+		"/Users/jonathan/Perforce/jonathanf_dev_mbp/code/comp_traffic/ZillowWeb/webapp.war/static/js/z-dojo-sparkline/z-dojo-sparkline.js",
+		"/Users/jonathan/Library/Application Support/Sublime Text 2/Packages/Perforce/Perforce.sublime-settings",
+		"/Users/jonathan/Library/Application Support/Sublime Text 2/Packages/Perforce/Perforce.py",
+		"/Users/jonathan/Library/Application Support/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+		"/Users/jonathan/Perforce/jonathanf_dev_mbp/code/comp_traffic/ZillowWeb/webapp.war/static/js/src/ux/VerticalToggle.js",
+		"/Users/jonathan/Library/Application Support/Sublime Text 2/Packages/Default/Preferences.sublime-settings",
+		"/Users/jonathan/Perforce/jonathanf_dev_mbp/code/comp_traffic/ZillowWeb/webapp.war/static/js/z-timer/z-timer.js",
+		"/Users/jonathan/Perforce/jonathanf_dev_mbp/code/comp_traffic/ZillowWeb/webapp.war/static/js/src/ux/AjaxFormExt.js",
+		"/Users/jonathan/Perforce/jonathanf_dev_mbp/code/comp_traffic/ZillowWeb/webapp.war/WEB-INF/ajax/form/AjaxFormWrapper.html",
+		"/Users/jonathan/Perforce/jonathanf_dev_mbp/code/comp_traffic/ZillowWeb/webapp.war/static/js/src/config/modules/zillow-modules.js",
+		"/Users/jonathan/Perforce/jonathanf_dev_mbp/code/comp_traffic/ZillowWeb/webapp.war/static/js/src/ux/LightboxBase.js",
+		"/Users/jonathan/Perforce/jonathanf_dev_mbp/code/comp_traffic/ZillowWeb/src/main/java/com/zillow/web/pages/m/MobileBrowseState.java",
+		"/Users/jonathan/Perforce/jonathanf_dev_mbp/code/comp_traffic/ZillowWeb/Traffic.sublime-project",
+		"/Users/jonathan/Perforce/jonathanf_dev_mbp/code/comp_traffic/ZillowWeb/zillow_web.sublime-project",
+		"/Users/jonathan/Perforce/jonathanf_dev_mbp/code/comp_traffic/ZillowWeb/webapp.war/WEB-INF/m/MobileBrowseState.html",
+		"/Users/jonathan/Perforce/jonathanf_dev_mbp/code/comp_traffic/ZillowWeb/webapp.war/WEB-INF/m/MobileBrowseNation.html",
+		"/Users/jonathan/Perforce/jonathanf_dev_mbp/code/comp_traffic/ZillowWeb/webapp.war/WEB-INF/m/MobileBrowseZip.html"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 95.0,
+		"where_history":
+		[
+			"/Users/jonathan/git/tg.home-values/HomeValues/home_values",
+			"/Users/jonathan/git/tg.home-values/HomeValues/home_values/config",
+			"/Users/jonathan/git/tg.home-values/HomeValues/home_values/data",
+			"/Users/jonathan/git/tg.home-values/HomeValues/home_values/controllers",
+			"/Users/jonathan/git/tg.home-values/HomeValues/home_values/templates",
+			"/Users/jonathan/git/tg.home-values/HomeValues/home_values/templates/homevalues",
+			"/Users/jonathan/git/tg.home-values/HomeValues/home_values/templates",
+			"/Users/jonathan/git/tg.home-values/HomeValues/home_values/templates/homevalues",
+			"/Users/jonathan/git/tg.home-values/HomeValues/home_values",
+			"/Users/jonathan/git/tg.home-values/HomeValues/home_values/config",
+			"/Users/jonathan/git/tg.home-values/HomeValues/home_values/data",
+			"/Users/jonathan/git/tg.home-values/HomeValues/home_values/controllers",
+			"/Users/jonathan/git/tg.home-values/HomeValues/home_values",
+			"/Users/jonathan/git/tg.schools/Schools/schools/templates",
+			"/Users/jonathan/git/tg.schools/Schools/schools/controllers",
+			"/Users/jonathan/git/tg.schools/Schools/schools/templates",
+			"/Users/jonathan/git/tg.schools/Schools/schools",
+			"/Users/jonathan/git/tg.schools/Schools/schools/templates",
+			"/Users/jonathan/Perforce/jonathanf_dev_mbp/code/comp_rel_b/ZillowWeb/webapp.war/static/css",
+			"/Users/jonathan/Perforce/jonathanf_dev_mbp/code/comp_rel_b/ZillowWeb/webapp.war/static/less",
+			"/Users/jonathan/Perforce/jonathanf_dev_mbp/code/comp_rel_b/ZillowWeb/webapp.war/static/css",
+			"/Users/jonathan/Perforce/jonathanf_dev_mbp/code/comp_rel_b/ZillowWeb/webapp.war/WEB-INF",
+			"/Users/jonathan/Perforce/jonathanf_dev_mbp/code/comp_rel_b/ZillowWeb/webapp.war/static/css",
+			"/Users/jonathan/Perforce/jonathanf_dev_mbp/code/comp_rel_b/ZillowWeb/webapp.war/static/less",
+			"/Users/jonathan/Perforce/jonathanf_dev_mbp/code/comp_rel_b/ZillowWeb/webapp.war/WEB-INF",
+			".nav-wrapper, .search-wrapper",
+			"/Users/jonathan/Perforce/jonathanf_dev_mbp/code/comp_rel_b/ZillowWeb/webapp.war/WEB-INF",
+			"/Users/jonathan/Perforce/jonathanf_dev_mbp/code/comp_rel_a/ZillowWeb/webapp.war/static/js",
+			"/Users/jonathan/Perforce/jonathanf_dev_mbp/code/comp_rel_a/ZillowWeb/webapp.war/WEB-INF",
+			"/Users/jonathan/Perforce/jonathanf_dev_mbp/code/comp_traffic/ZillowWeb/webapp.war/WEB-INF"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"less healthy",
+			"Very healthy",
+			"health_label",
+			"filter",
+			"filters",
+			"healthy",
+			"get_associated_regions",
+			"getnear",
+			"get_nearby",
+			"toggleContentText",
+			"zm-regions-value-table",
+			"region-type-filter-btns",
+			"comparisonTable.regionTypeId",
+			"region-type-filter",
+			" data-param=\"comparisonRegionTypeId\"",
+			"region-type-filter",
+			"casse",
+			"bar_chart",
+			"map",
+			"cent",
+			"cassette",
+			"chart",
+			"market_overview_chart",
+			"chart",
+			"bar-value info strong",
+			" class=\"bar-value\"",
+			" class=\"bar-label\"",
+			"class=\"bar-value\"",
+			"homes_count",
+			"homes_foreclosed",
+			"format_percent",
+			"homes_count",
+			"homes_td",
+			"parent_region",
+			"homes_foreclosed",
+			"homes_td",
+			"percentageCircleCharts",
+			"sold above",
+			"sold",
+			"sold abo",
+			"break even",
+			"pie",
+			"circle",
+			"circle-pie-chart",
+			"data through",
+			"	",
+			"data th",
+			"_ToggleArea",
+			"togglearea",
+			"date",
+			"build_response",
+			"date",
+			"format_percent",
+			"date",
+			"<",
+			"_METRIC_TYPES",
+			"thermometer",
+			"\\{ \\\"(.*)\\\"\\: \\\"(.*)\\\" \\}",
+			"\\{ \\\"(.*)\\\"\\: \\\"(.*)\\\" \\}\\,",
+			"\\{ \\\"(.[^\\\"])\\\"\\: \\\"(.[^\\\"])\\\" \\}\\,",
+			"\\{ \\\"(.[^\"])\\\"\\: \\\"(.[^\"])\\\" \\}\\,",
+			"\\{ \\\"([0-9])\\\"\\: \\\"([0-9])\\\" \\}\\,",
+			"\\{ \\\"(.[0-9])\\\"\\: \\\"(.[0-9])\\\" \\}\\,",
+			"\\{ \\\"(.[0-9]\\)\\\"\\: \\\"\\(.[0-9]\\)\\\" \\}\\,",
+			"{ \"\\(.[0-9]\\)\": \"\\(.[0-9]\\)\" },",
+			"{ \"(.[0-9])\": \"(.[0-9])\" },",
+			"mobileRootController",
+			"data-paramvalue=\"(.*)\"",
+			"data-paramvalue=\"(.*\"",
+			"data-paramvalue=\"zhvi\"",
+			" value=\"(.*)\" ",
+			" value=\"*\" ",
+			"data-param=\"time-range\"",
+			" data-param=\"data-bucket\"",
+			" data-param=\"chart-metric\"",
+			"\"home-bucket\"",
+			"data-value",
+			"percent",
+			"jwcid",
+			"jwcid=\"@Any\" ",
+			"literals",
+			"leftBlock",
+			"year_change",
+			"median_sale",
+			"median",
+			"median_",
+			"national",
+			"zillow home",
+			"child_regions",
+			"sale price",
+			"average",
+			"average sale",
+			"median_sale",
+			"sale price",
+			"sale_price",
+			"Seattle",
+			"Seattle, WA",
+			"06/30/12",
+			"06/30/2013",
+			"sep",
+			"int",
+			"int(",
+			"00/",
+			"/1",
+			"app_globals",
+			"jinja",
+			"jinja2",
+			"env",
+			"jinja2_env",
+			"environment",
+			"tabbed-nav",
+			"school-map",
+			"static-map",
+			"map",
+			"tabbed-nav",
+			"zss-list-drawer",
+			"gs_rating",
+			"gs-badge",
+			"gs-badth",
+			"page_data",
+			"assemble_page_data",
+			"query_school_data",
+			"public_checked",
+			"page_data",
+			"assemble_page_data",
+			"_checked'",
+			"high_active",
+			"show school"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"'comparisonTable.regionTypeId'",
+			"",
+			"bar-value info",
+			" class=\"bar-value info strong\"",
+			" class=\"bar-label info strong\"",
+			"class=\"bar-value info\"",
+			"rental_zhvi",
+			"    ",
+			"_toggleArea",
+			"{ \"key\": \"$1\", \"value\": \"$2\" }",
+			"data-paramvalue=\"\"",
+			" ",
+			"data-param=\"timeRange\"",
+			"",
+			"\"data-bucket\"",
+			"data-paramvalue",
+			"",
+			"nation",
+			"sub_regions",
+			"{{region.name}}",
+			"{{region.full_name}}",
+			"{{region.data_through_date}}",
+			"_active'",
+			"* ",
+			"    ",
+			"is_iphone",
+			"is_app",
+			"    ",
+			"@break",
+			".header-refresh-off .nav-wrapper, .header-refresh-off .search-wrapper",
+			"responsive=\"ognl:responsive\"",
+			"responsive=\"ognl:isResponsive\"",
+			"responsive=\"ognl:responsive\"",
+			"ognl:responsive",
+			".nav-wrapper, .search-wrapper ",
+			"function (",
+			"href=\"/$2-$1/\"",
+			"li"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.jslint_result_view":
+	{
+		"height": 112.0
+	},
+	"replace":
+	{
+		"height": 64.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"filters",
+				"All Files/templates/homevalues/chart_filters.html"
+			],
+			[
+				"market",
+				"Templates/homevalues/market_health.html"
+			],
+			[
+				"regioni",
+				"All Files/lib/region_info.py"
+			],
+			[
+				"homevalues",
+				"Controllers/homevalues.py"
+			],
+			[
+				"market_par",
+				"Templates/homevalues/market_paragraph.html"
+			],
+			[
+				"nearby",
+				"Templates/homevalues/nearby_regions.html"
+			],
+			[
+				"macro",
+				"Templates/homevalues/macros.html"
+			],
+			[
+				"forma",
+				"All Files/lib/formatters.py"
+			],
+			[
+				"chartfil",
+				"Templates/homevalues/chart_filters.html"
+			],
+			[
+				"region",
+				"Templates/homevalues/region_comparison.html"
+			],
+			[
+				"chart",
+				"Templates/homevalues/chart.html"
+			],
+			[
+				"index",
+				"Templates/homevalues/index.html"
+			],
+			[
+				"inde",
+				"Templates/index.html"
+			],
+			[
+				"rental",
+				"Templates/homevalues/rentals_info.html"
+			],
+			[
+				"list",
+				"Templates/homevalues/listings_and_sales.html"
+			],
+			[
+				"rent",
+				"Templates/homevalues/rentals_info.html"
+			],
+			[
+				"listing",
+				"Templates/homevalues/listings_and_sales.html"
+			],
+			[
+				"marketh",
+				"Templates/homevalues/market_health.html"
+			],
+			[
+				"base.",
+				"Templates/base.html"
+			],
+			[
+				"markethe",
+				"Templates/homevalues/market_health.html"
+			],
+			[
+				"nearby_cities",
+				"Templates/homevalues/nearby_cities.html"
+			],
+			[
+				"region_in",
+				"Templates/homevalues/region_info.html"
+			],
+			[
+				"maret",
+				"Templates/homevalues/market_overview.html"
+			],
+			[
+				"homev",
+				"Controllers/homevalues.py"
+			],
+			[
+				"rentals",
+				"Templates/rentals_info.html"
+			],
+			[
+				"school_det",
+				"Templates/school_details_v2.mustache"
+			],
+			[
+				"school_hdp",
+				"schools/templates/school_hdp.mustache"
+			],
+			[
+				"bing_ma",
+				"Templates/bing_map_view.mustache"
+			],
+			[
+				"school_d",
+				"Templates/school_details_v2.mustache"
+			],
+			[
+				"schooldetails.mu",
+				"Templates/school_details.mustache"
+			],
+			[
+				"school",
+				"Templates/school_hdp.mustache"
+			],
+			[
+				"school_search",
+				"Controllers/school_search.py"
+			],
+			[
+				"schoolfilter",
+				"Templates/school_filters.mustache"
+			],
+			[
+				"schoolhdp",
+				"Templates/school_hdp.mustache"
+			],
+			[
+				"schoolsearch",
+				"Templates/school_search_v2.mustache"
+			],
+			[
+				"school_sear",
+				"Controllers/school_search.py"
+			],
+			[
+				"schoolsearch.mu",
+				"Templates/school_search_v2.mustache"
+			],
+			[
+				"schoolfi",
+				"Templates/school_filters.mustache"
+			],
+			[
+				"bing_map",
+				"Templates/bing_map_view.mustache"
+			],
+			[
+				"hdp.mus",
+				"Templates/school_hdp.mustache"
+			],
+			[
+				"school_detail",
+				"Templates/school_details_v2.mustache"
+			],
+			[
+				"sch",
+				"Templates/school_hdp.mustache"
+			],
+			[
+				"hdp",
+				"Templates/school_hdp.mustache"
+			],
+			[
+				"school_search_",
+				"schools/templates/school_search_v2.mustache"
+			],
+			[
+				"school_search.m",
+				"Templates/school_search.mustache"
+			],
+			[
+				"school_filters",
+				"schools/templates/school_filters.mustache"
+			],
+			[
+				"school_deta",
+				"Templates/school_details_v2.mustache"
+			],
+			[
+				"school_details.p",
+				"Controllers/school_details.py"
+			],
+			[
+				"school_hdp.",
+				"Controllers/school_hdp.py"
+			],
+			[
+				"schoolsearch.mus",
+				"schools/templates/school_search.mustache"
+			],
+			[
+				"schoolsear",
+				"Templates/school_search.mustache"
+			],
+			[
+				"details",
+				"Templates/school_details.mustache"
+			],
+			[
+				"border",
+				"Templates (WEB-INF)/Border.html"
+			],
+			[
+				"nav-p",
+				"CSS/module/nav-primary.css"
+			],
+			[
+				"nav-pri",
+				"LESS/module/nav-primary.less"
+			],
+			[
+				"chrome",
+				"LESS/chrome.less"
+			],
+			[
+				"search.c",
+				"CSS/module/search.css"
+			],
+			[
+				"search.les",
+				"LESS/module/search.less"
+			],
+			[
+				"nav",
+				"CSS/module/nav-responsive.css"
+			],
+			[
+				"inline-au",
+				"CSS/user/inline-auth.css"
+			],
+			[
+				"auth",
+				"Templates (WEB-INF)/auth/AuthWrapper.html"
+			],
+			[
+				"layout",
+				"CSS/base/layout.css"
+			],
+			[
+				"schoolsearchpa",
+				"Templates (WEB-INF)/schools/SchoolSearchPage.html"
+			],
+			[
+				"schoolde",
+				"Templates (WEB-INF)/schools/SchoolDetailsPage.html"
+			],
+			[
+				"reset",
+				"CSS/reset.css"
+			],
+			[
+				"reset.",
+				"LESS/reset.less"
+			],
+			[
+				"djan",
+				"Java (zillow)/web/components/cms/DjangoCMSBorder.java"
+			],
+			[
+				"digs-",
+				"LESS/home-improvement/digs-boards.less"
+			],
+			[
+				"dig",
+				"LESS/home-improvement/digs.less"
+			],
+			[
+				"loca",
+				"CSS/pages/local.css"
+			],
+			[
+				"local",
+				"CSS/pages/local.css"
+			],
+			[
+				"login-blo",
+				"CSS/module/login-block.css"
+			],
+			[
+				"loginb",
+				"LESS/module/login-block.less"
+			],
+			[
+				"digs",
+				"LESS/home-improvement/digs.less"
+			],
+			[
+				"varia",
+				"LESS/variables.less"
+			],
+			[
+				"digs.",
+				"CSS/home-improvement/digs.css"
+			],
+			[
+				"mixin",
+				"LESS/mixins.less"
+			],
+			[
+				"topnav",
+				"Templates (WEB-INF)/TopNav.html"
+			],
+			[
+				"topnav.ja",
+				"Java (zillow)/web/components/TopNav.java"
+			],
+			[
+				"border.ja",
+				"Java (zillow)/web/components/Border.java"
+			],
+			[
+				"responsivem",
+				"Templates (WEB-INF)/ResponsiveNavMenu.html"
+			],
+			[
+				"djangocmsborder",
+				"Java (zillow)/web/components/cms/DjangoCMSBorder.java"
+			],
+			[
+				"help/index.html",
+				"Templates (WEB-INF)/help/Index.html"
+			],
+			[
+				"authlightbox.",
+				"CSS/user/auth-lightbox.css"
+			],
+			[
+				"reset.c",
+				"CSS/reset.css"
+			],
+			[
+				"logo",
+				"CSS/module/logo.css"
+			],
+			[
+				"nav-responsive",
+				"LESS/module/nav-responsive.less"
+			],
+			[
+				"hdp.html",
+				"Templates (WEB-INF)/jsonp/Hdp.html"
+			],
+			[
+				"nav-primar",
+				"LESS/module/nav-primary.less"
+			],
+			[
+				"bor",
+				"Templates (WEB-INF)/Border.html"
+			],
+			[
+				"master",
+				"CSS/master.css"
+			],
+			[
+				"global",
+				"CSS/global.css"
+			],
+			[
+				"reset.css",
+				"CSS/reset.css"
+			],
+			[
+				"help",
+				"Templates (WEB-INF)/mortgage/help/HelpOverview.html"
+			],
+			[
+				"overview.css",
+				"CSS/help/overview.css"
+			],
+			[
+				"bing-map-vie",
+				"JS/z-bing-map-view/z-bing-map-view.js"
+			],
+			[
+				"nearbysch",
+				"Templates (WEB-INF)/schools/TGNearbySchools.html"
+			],
+			[
+				"bing",
+				"pages/visuals/neg-equity-map/v1/js/Bing2.js"
+			],
+			[
+				"opengra",
+				"Templates (WEB-INF)/opengraphtags/OpenGraphTags.html"
+			],
+			[
+				"facebooklik",
+				"Templates (WEB-INF)/ui/facebook/Like.html"
+			],
+			[
+				"facebookli",
+				"JS/src/thirdparty/FacebookLike.js"
+			],
+			[
+				"visuals.css",
+				"CSS/visuals.css"
+			],
+			[
+				"negative",
+				"Templates (WEB-INF)/visuals/negativeequity/NegativeEquity.html"
+			],
+			[
+				"visuals/in",
+				"Templates (WEB-INF)/visuals/Index.html"
+			],
+			[
+				"visuals/index",
+				"Java (zillow)/web/pages/visuals/Index.java"
+			],
+			[
+				"ajaxformli",
+				"JS/src/ux/AjaxFormLightbox.js"
+			],
+			[
+				"mobilebrowse.java",
+				"zillow/web/pages/m/MobileBrowseState.java"
+			],
+			[
+				"emailafriendrequest",
+				"zillow/web/pages/email/EmailAFriendRequest.java"
+			],
+			[
+				"saveht",
+				"WEB-INF/homedetail/toolbox/menus/Save.html"
+			],
+			[
+				"favorite",
+				"js/src/zillow/FavoriteManager.js"
+			],
+			[
+				"lightboxbase",
+				"js/src/ux/LightboxBase.js"
+			],
+			[
+				"leadfor",
+				"css/general/lead-form.css"
+			],
+			[
+				"cotblos",
+				"WEB-INF/homedetail/contact/ContactFormBlocks.html"
+			],
+			[
+				"zilmod",
+				"js/src/config/modules/zillow-modules.js"
+			],
+			[
+				"contactsh",
+				"WEB-INF/homedetail/contact/ContactShortForm.html"
+			],
+			[
+				"ajaxformwr",
+				"WEB-INF/ajax/form/AjaxFormWrapper.html"
+			],
+			[
+				"embed",
+				"WEB-INF/geo/GeoFactsEmbedChart.html"
+			],
+			[
+				"email-a",
+				"css/general/email-a-friend.css"
+			],
+			[
+				"emailafr",
+				"js/src/zillow/EmailAFriend.js"
+			],
+			[
+				"perforce",
+				"/Users/jonathan/Perforce/jonathanf_dev_mbp/code/comp_traffic/ZillowWeb/webapp.war/static/js/z-email-a-friend-mgr/z-email-a-friend-mgr.js"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+			[
+				"",
+				"/Users/jonathan/git/tg.schools/Schools/schools/Schools.sublime-project"
+			],
+			[
+				"sch",
+				"/Users/jonathan/git/tg.schools/Schools/schools/Schools.sublime-project"
+			],
+			[
+				"traf",
+				"/Users/jonathan/Perforce/jonathanf_dev_mbp/code/comp_traffic/ZillowWeb/Traffic.sublime-project"
+			],
+			[
+				"t",
+				"/Users/jonathan/Perforce/jonathanf_dev_mbp/code/comp_traffic_dev_a/ZillowWeb/TrafficDevA.sublime-project"
+			],
+			[
+				"rela",
+				"/Users/jonathan/Perforce/jonathanf_dev_mbp/code/comp_rel_a/ZillowWeb/RelA.sublime-project"
+			],
+			[
+				"re",
+				"/Users/jonathan/Perforce/jonathanf_dev_mbp/code/comp_rel_a/ZillowWeb/RelA.sublime-project"
+			],
+			[
+				"rel",
+				"/Users/jonathan/Perforce/jonathanf_dev_mbp/code/comp_rel_a/ZillowWeb/RelA.sublime-project"
+			],
+			[
+				"tr",
+				"/Users/jonathan/Perforce/jonathanf_dev_mbp/code/comp_traffic/ZillowWeb/Traffic.sublime-project"
+			],
+			[
+				"tra",
+				"/Users/jonathan/Perforce/jonathanf_dev_mbp/code/comp_traffic/ZillowWeb/Traffic.sublime-project"
+			],
+			[
+				"relb",
+				"/Users/jonathan/Perforce/jonathanf_dev_mbp/code/comp_rel_b/ZillowWeb/RelB.sublime-project"
+			],
+			[
+				"sc",
+				"/Users/jonathan/Git/schools/schools.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 256.0,
+	"status_bar_visible": true
+}
