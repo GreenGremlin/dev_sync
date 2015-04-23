@@ -4,21 +4,33 @@
     // Parentheses swallowing fix (almost)
     // From: http://stackoverflow.com/questions/14032041/how-to-prevent-sublime-text-2-from-swallowing-closing-brackets-quotes-and-paren
     //   only swallows parens if the cursor is between an open and close paren i.e. "(<cursor>)" not "(text<cursor>)"
-    { "keys": [")"], "command": "insert", "args": {"characters": ")"}, "context":
-        [
+    { "keys": [")"], "command": "insert", "args": {"characters": ")"},
+        "context": [
             { "key": "setting.auto_match_enabled", "operator": "equal", "operand": true },
             { "key": "selection_empty", "operator": "equal", "operand": true, "match_all": true },
             { "key": "following_text", "operator": "regex_contains", "operand": "^[)]", "match_all": true },
             { "key": "preceding_text", "operator": "regex_contains", "operand": "[^(]$", "match_all": true }
         ]
     },
-    { "keys": [")"], "command": "move", "args": {"by": "characters", "forward": true}, "context":
-        [
+    { "keys": [")"], "command": "move", "args": {"by": "characters", "forward": true},
+        "context": [
             { "key": "setting.auto_match_enabled", "operator": "equal", "operand": true },
             { "key": "selection_empty", "operator": "equal", "operand": true, "match_all": true },
             { "key": "following_text", "operator": "regex_contains", "operand": "^[)]", "match_all": true },
             { "key": "preceding_text", "operator": "regex_contains", "operand": "[(]$", "match_all": true }
         ]
-    }
+    },
     // end, Parentheses swallowing partial fix (almost)
+    { "keys": ["keypad_enter"], "command": "find_next",
+        "context": [
+            {"key": "panel", "operand": "find"},
+            {"key": "panel_has_focus"}
+        ]
+    },
+    { "keys": ["keypad_enter"], "command": "find_next",
+        "context": [
+            {"key": "panel", "operand": "replace"},
+            {"key": "panel_has_focus"}
+        ]
+    }
 ]
