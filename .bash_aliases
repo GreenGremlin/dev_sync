@@ -29,7 +29,7 @@ alias wget='wget -O - '
 ###############
 # Maven aliases
 # alias mvno='mvn -o'
-# alias mvnall='mvnrun; mvn clean install -Dmaven.test.skip=true; mvndbg'
+alias mvninstall='mvnrun; mvn clean install -DskipTests -DskipJspc'
 # alias mvnoall='mvnrun; mvno clean install -Dmaven.test.skip=true; mvndbg'
 # alias mvneclipse='mvn -P -testResources eclipse:clean eclipse:eclipse;'
 # alias mvnoeclipse='mvno -P -testResources eclipse:clean eclipse:eclipse;'
@@ -54,6 +54,9 @@ alias start_http='python -m SimpleHTTPServer 8000';
 ############
 # Git Aliases
 alias gs='git status'
+alias gf='git fetch -p && git fetch origin master:master'
+alias gmm='gf && git merge master'
+alias grm='gf && git rebase master'
 alias gprune_list='git branch -r | awk '"'"'{print $1}'"'"' | egrep -v -f /dev/fd/0 <(git branch -vv | grep origin) | awk '"'"'{print $1}'"'"
 alias gprune_delete='gprune_list | xargs git branch -d'
 alias gprune_fdelete='gprune_list | xargs git branch -D'

@@ -7,8 +7,7 @@
     {
         "class": "sidebar_label",
         "color": [180, 190, 200],
-        "font.size": 12,
-        "content_margin": [20,0]
+        "font.size": 12
     },
     // Sidebar folder entry
     {
