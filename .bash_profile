@@ -130,6 +130,10 @@ if [ -f ~/.bashrc ]; then
     . ~/.bashrc
 fi
 
+# autocompletion
+eval "$(grunt --completion=bash)"
+eval "$(gulp --completion=bash)"
+
 export EDITOR="vim"
 
 if [ -f ~/bin/subl ]; then
