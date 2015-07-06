@@ -1,0 +1,38 @@
+
+# build
+node_modules
+npm-debug.log
+target/
+
+# shell
+.bash_aliases
+.bashrc
+.bash_history
+.ssh/
+
+# git
+.gitconfig
+.gitk
+
+
+# Sublime Text workspace files
+*.sublime-workspace
+
+# other editors and plug-ins
+_viminfo
+
+# Intellij project files
+*.eml
+*.iml
+*.ipr
+*.iws
+.idea
+
+# TestNG output files
+test-output/
+
+# Virtual dev environment
+.vagrant
+
+# Mac OS X stuff
+.DS_Store

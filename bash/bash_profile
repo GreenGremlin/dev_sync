@@ -3,8 +3,10 @@
 # for examples
 export BASH_CONF="bash_profile"
 
-if [ -f ~/.bash_colors ]; then
-    . ~/.bash_colors
+DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
+
+if [ -f "$DIR/bash_colors" ]; then
+    . "$DIR/bash_colors"
 fi
 
 #OS X specific
@@ -89,12 +91,6 @@ if [ -x /usr/bin/dircolors ]; then
     alias egrep='egrep --color=auto'
 fi
 
-# some more ls aliases
-alias ll='ls -alF'
-alias la='ls -A'
-alias lla='ls -AalF'
-alias l='ls -CF'
-
 # Add an "alert" alias for long running commands.  Use like so:
 #   sleep 10; alert
 alias alert='notify-send --urgency=low -i "$([ $? = 0 ] && echo terminal || echo error)" "$(history|tail -n1|sed -e '\''s/^\s*[0-9]\+\s*//;s/[;&|]\s*alert$//'\'')"'
@@ -103,16 +99,16 @@ alias alert='notify-send --urgency=low -i "$([ $? = 0 ] && echo terminal || echo
 # You may want to put all your additions into a separate file like
 # ~/.bash_aliases, instead of adding them here directly.
 # See /usr/share/doc/bash-doc/examples in the bash-doc package.
-if [ -f ~/.bash_functions ]; then
-    . ~/.bash_functions
+if [ -f "$DIR/bash_functions" ]; then
+    . "$DIR/bash_functions"
 fi
 
-if [ -f ~/.bash_aliases ]; then
-    . ~/.bash_aliases
+if [ -f "$DIR/bash_aliases" ]; then
+    . "$DIR/bash_aliases"
 fi
 
-if [ -f ~/.bash_rei ]; then
-    . ~/.bash_rei
+if [ -f "$DIR/bash_rei" ]; then
+    . "$DIR/bash_rei"
 fi
 
 # enable programmable completion features (you don't need to enable
@@ -153,18 +149,3 @@ esac
 
 [[ -s ~/.nvm/nvm.sh ]] && . ~/.nvm/nvm.sh # This loads NVM
 
-
-# Setting PATH for Python 2.7
-# The orginal version is saved in .bash_profile.pysave
-PATH="/Library/Frameworks/Python.framework/Versions/2.7/bin:${PATH}"
-export PATH
-
-# The next line updates PATH for the Google Cloud SDK.
-if [ -f ~/google-cloud-sdk/path.bash.inc ]; then
-    . ~/google-cloud-sdk/path.bash.inc
-fi
-
-# The next line enables bash completion for gcloud.
-if [ -f ~/google-cloud-sdk/completion.bash.inc ]; then
-    . ~/google-cloud-sdk/completion.bash.inc
-fi
