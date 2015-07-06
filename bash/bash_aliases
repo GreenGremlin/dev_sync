@@ -1,6 +1,9 @@
-################
-# variables
-alias zgit='cd ~/git'
+
+# some more ls aliases
+alias ll='ls -alF'
+alias la='ls -A'
+alias lla='ls -AalF'
+alias l='ls -CF'
 
 ################
 # System Aliases
