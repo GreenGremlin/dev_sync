@@ -2,55 +2,59 @@
 	"folders":
     [
         {
-            "path": "/Users/jfelch2/code/rei.com"
+            "path": "~/code/rei.com"
         },
         {
-            "path": "/Users/jfelch2/code/rei.com/online/online-web",
+            "path": "~/code/rei.com/online/online-web",
             "name": "Online Web"
         },
         {
-            "path": "/Users/jfelch2/code/rei.com/online/online-web/febs",
+            "path": "~/code/rei.com/online/online-web/febs",
             "name": "__ FEBS"
         },
         {
-            "path": "/Users/jfelch2/code/rei.com/online/online-web/node_modules/ui-framework",
+            "path": "~/code/rei.com/online/online-web/node_modules/ui-framework",
             "name": "__ ui-framework"
         },
         {
-            "path": "/Users/jfelch2/code/rei.com/online/online-web/node_modules",
+            "path": "~/code/rei.com/online/online-web/node_modules",
             "name": "__ rei-{modules}",
             "folder_include_patterns": ["rei-*", "rei-*/*"]
         },
         {
-            "path": "/Users/jfelch2/code/rei.com/online/online-web/src/main/java/com/rei/online",
+            "path": "~/code/rei.com/online/online-web/src/main/java/com/rei/online",
             "name": "__ Java"
         },
         {
-            "path": "/Users/jfelch2/code/rei.com/online/online-web/src/main/webapp/WEB-INF/tags",
+            "path": "~/code/rei.com/online/online-web/src/main/webapp/WEB-INF/tags",
             "name": "__ Tags"
         },
         {
-            "path": "/Users/jfelch2/code/rei.com/online/online-web/src/main/webapp/jsp",
+            "path": "~/code/rei.com/online/online-web/src/main/webapp/jsp",
             "name": "__ JSP"
         },
         {
-            "path": "/Users/jfelch2/code/rei.com/online/online-web/src/main/static",
+            "path": "~/code/rei.com/online/online-web/src/main/webapp/jsp/checkout",
+            "name": "__ JSP - Checkout"
+        },
+        {
+            "path": "~/code/rei.com/online/online-web/src/main/static",
             "name": "__ Static"
         },
         {
-            "path": "/Users/jfelch2/code/rei.com/online/online-web/src/main/static/pages/checkout",
+            "path": "~/code/rei.com/online/online-web/src/main/static/pages/checkout",
             "name": "__ __ Pages - Checkout"
         },
         {
-            "path": "/Users/jfelch2/code/rei.com/online/online-web/src/main/static/pages/shopping-cart",
+            "path": "~/code/rei.com/online/online-web/src/main/static/pages/shopping-cart",
             "name": "__ __ Pages - Shopping Cart"
         },
         {
-            "path": "/Users/jfelch2/code/rei.com/online/online-rest-api/src/main/java/com/rei/online/rs",
+            "path": "~/code/rei.com/online/online-rest-api/src/main/java/com/rei/online/rs",
             "name": "Services API"
         },
         {
-            "path": "/Users/jfelch2/code/rei.com/online/online-web/src/main/java/com/rei/online/rs",
+            "path": "~/code/rei.com/online/online-web/src/main/java/com/rei/online/rs",
             "name": "Services IMPL"
         }
     ]
