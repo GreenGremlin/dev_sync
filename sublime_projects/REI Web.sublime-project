@@ -34,6 +34,10 @@
             "name": "__ JSP"
         },
         {
+            "path": "~/code/rei.com/online/online-web/src/main/webapp/jsp/checkout",
+            "name": "__ JSP - Checkout"
+        },
+        {
             "path": "~/code/rei.com/online/online-web/src/main/static",
             "name": "__ Static"
         },
