@@ -3,6 +3,8 @@
 # for examples
 export BASH_CONF="bash_profile"
 
+export HOMEBREW_GITHUB_API_TOKEN="6095ad71e3a744c975f142607a4335df8d87cb48"
+
 DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 
 if [ -f "$DIR/bash_colors" ]; then
@@ -127,8 +129,13 @@ if [ -f ~/.bashrc ]; then
 fi
 
 # autocompletion
-eval "$(grunt --completion=bash)"
-eval "$(gulp --completion=bash)"
+if type "grunt" > /dev/null; then
+    eval "$(grunt --completion=bash)"
+fi
+
+if type "gulp" > /dev/null; then
+    eval "$(gulp --completion=bash)"
+fi
 
 export EDITOR="vim"
 
