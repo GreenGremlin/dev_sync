@@ -1,0 +1,78 @@
+[
+    // Clear all find highlights
+    {
+        "caption": "Reg Replace: ES6-ify (all)",
+        "command": "reg_replace",
+        "args": {
+            "replacements": [
+                "es6_replace_require_sub_module_with_import",
+                "es6_replace_require_aliased_sub_module_with_import",
+                "es6_replace_require_with_import",
+                "es6_strip_import_extensions",
+                "webpack_import_relative_to_aliases",
+                "webpack_import_capcase_component_to_aliases"
+            ]
+        }
+    },
+    {
+        "caption": "Reg Replace: Convert to ES6 imports",
+        "command": "reg_replace",
+        "args": {
+            "replacements": [
+                "es6_replace_require_sub_module_with_import",
+                "es6_replace_require_aliased_sub_module_with_import",
+                "es6_replace_require_with_import",
+                "es6_strip_import_extensions"
+            ]
+        }
+    },
+    {
+        "caption": "Reg Replace: Strip import extensions (.jsx?)",
+        "command": "reg_replace",
+        "args": {"replacements": ["es6_strip_import_extensions"]}
+    },
+    {
+        "caption": "Reg Replace: Convert relative import to aliased import",
+        "command": "reg_replace",
+        "args": {
+            "replacements": [
+                "webpack_import_relative_to_aliases",
+                "webpack_import_capcase_component_to_aliases"
+            ]
+        }
+    },
+    {
+        "caption": "Reg Replace: Convert to React.Component class",
+        "command": "reg_replace",
+        "args": {
+            "replacements": [
+                "react_es6_component_class_open",
+                "react_es6_component_class_close",
+                "react_es6_component_class_commas"
+            ]
+        }
+    },
+    // {
+    //     "caption": "Reg Replace: Clear Highlights",
+    //     "command": "reg_replace",
+    //     "args": {"clear": true}
+    // },
+    // Example commands.
+    // {
+    //     "caption": "Reg Replace: HTML5 Remove Deprecated Type Attr",
+    //     "command": "reg_replace",
+    //     "args": {"replacements": ["html5_remove_deprecated_type_attr"]}
+    // },
+    // {
+    //     "caption": "Reg Replace: Remove Trailing Spaces",
+    //     "command": "reg_replace",
+    //     "args": {"replacements": ["remove_trailing_spaces"]}
+    // },
+    // // Chained replacements in one command
+    // {
+    //     "caption": "Reg Replace: Remove HTML Comments and Trailing Spaces",
+    //     "command": "reg_replace",
+    //     "args": {"replacements": ["remove_html_comments", "remove_trailing_spaces"]}
+    // },
+
+]
