@@ -5,19 +5,15 @@
 		"JavaScript": "Node.js"
 	},
 	"color_scheme": "Packages/User/base16-tomorrow.dark (SL).tmTheme",
-	"detect_indentation": false,
+	"detect_indentation": true,
 	"draw_white_space": "all",
 	"ensure_newline_at_eof_on_save": true,
-	"folder_exclude_patterns":
-	[
-		"target"
-	],
 	"font_face": "Source Code Pro",
-	"font_size": 14,
-	"hide_disclosure_buttons": true,
+	"font_size": 15,
 	"highlight_line": true,
 	"ignored_packages":
 	[
+		"Markdown",
 		"Vintage"
 	],
 	"line_padding_bottom": 1,
@@ -29,5 +25,6 @@
 	"theme": "Soda Dark 3.sublime-theme",
 	"translate_tabs_to_spaces": true,
 	"trim_trailing_white_space_on_save": true,
-	"word_wrap": true
+	"word_wrap": true,
+  "binary_file_patterns": ["build/*", "build_server/*", "node_modules/*"]
 }

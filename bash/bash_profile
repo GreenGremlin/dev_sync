@@ -6,6 +6,14 @@ export BASH_CONF="bash_profile"
 export HOMEBREW_GITHUB_API_TOKEN="6095ad71e3a744c975f142607a4335df8d87cb48"
 
 DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
+CODE_DIR="/users/jonathan/code"
+
+export PYTHONPATH="/Users/jonathan/lib/python2.7/site-packages/:$PYTHONPATH"
+export WORKON_HOME=~/.virtualenvs
+
+if [ -f "/Users/jonathan/bin/virtualenvwrapper_lazy.sh" ]; then
+    . "/Users/jonathan/bin/virtualenvwrapper_lazy.sh"
+fi
 
 if [ -f "$DIR/bash_colors" ]; then
     . "$DIR/bash_colors"
@@ -109,8 +117,8 @@ if [ -f "$DIR/bash_aliases" ]; then
     . "$DIR/bash_aliases"
 fi
 
-if [ -f "$DIR/bash_rei" ]; then
-    . "$DIR/bash_rei"
+if [ -f "$CODE_DIR/expertise/config_templates/expertise.bashrc" ]; then
+    . "$CODE_DIR/expertise/config_templates/expertise.bashrc"
 fi
 
 # enable programmable completion features (you don't need to enable

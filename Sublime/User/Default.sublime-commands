@@ -5,7 +5,10 @@
         "command": "reg_replace",
         "args": {
             "replacements": [
+                "es6_replace_var_at_line_start_with_const",
+                "es6_replace_var_with_let",
                 "es6_replace_require_sub_module_with_import",
+                "es6_replace_destructured_require",
                 "es6_replace_require_aliased_sub_module_with_import",
                 "es6_replace_require_with_import",
                 "es6_strip_import_extensions",
@@ -20,6 +23,7 @@
         "args": {
             "replacements": [
                 "es6_replace_require_sub_module_with_import",
+                "es6_replace_destructured_require",
                 "es6_replace_require_aliased_sub_module_with_import",
                 "es6_replace_require_with_import",
                 "es6_strip_import_extensions"
@@ -52,6 +56,18 @@
             ]
         }
     },
+    // Need to ensure it doesn't replace beyond the matching close '}'
+    // {
+    //     "caption": "Reg Replace: Convert to React.Component class (static defs)",
+    //     "command": "reg_replace",
+    //     "args": {
+    //         "replacements": [
+    //             "react_es6_component_class_static_child"
+    //         ],
+    //         "multi_pass": true
+    //     }
+    // },
+
     // {
     //     "caption": "Reg Replace: Clear Highlights",
     //     "command": "reg_replace",

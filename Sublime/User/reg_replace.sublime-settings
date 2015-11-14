@@ -48,20 +48,38 @@
 
     "replacements": {
         // ES6 replacements
+        "es6_replace_var_with_let": {
+            "find": " var ([a-zA-Z]*)",
+            "replace": " let \\1",
+            "greedy": true,
+            "case": true
+        },
+        "es6_replace_var_at_line_start_with_const": {
+            "find": "(^var) ([a-zA-Z]*)",
+            "replace": "const \\2",
+            "greedy": true,
+            "case": true
+        },
         "es6_replace_require_with_import": {
-            "find": "^(?:var|const|let) ([a-zA-Z]*) = require\\(([^)]*)\\)",
+            "find": "^(?:var|const|let)(?:[\\s]*)([a-zA-Z]*)(?:[\\s]*)=(?:[\\s]*)require\\(([^)]*)\\)",
             "replace": "import \\1 from \\2",
             "greedy": true,
             "case": true
         },
-        "es6_replace_require_sub_module_with_import": {
-            "find": "^(?:var|const|let) ([a-zA-Z]*) = require\\(([^)]*)\\)\\.\\1;",
+        "es6_replace_destructured_require": {
+            "find": "^(?:var|const|let)(?:[\\s]*)\\{(?:[\\s]*)([^}]*)(?:[\\s]*)\\}(?:[\\s]*)=(?:[\\s]*)require\\(([^)]*)\\)",
             "replace": "import { \\1 } from \\2",
             "greedy": true,
             "case": true
         },
+        "es6_replace_require_sub_module_with_import": {
+            "find": "^(?:var|const|let)(?:[\\s]*)([a-zA-Z]*)(?:[\\s]*)=(?:[\\s]*)require\\(([^)]*)\\)\\.\\1;",
+            "replace": "import { \\1 } from \\2;",
+            "greedy": true,
+            "case": true
+        },
         "es6_replace_require_aliased_sub_module_with_import": {
-            "find": "^(?:var|const|let) ([a-zA-Z]*) = require\\(([^)]*)\\)\\.([a-zA-Z]*)",
+            "find": "^(?:var|const|let)(?:[\\s]*)([a-zA-Z]*)(?:[\\s]*)=(?:[\\s]*)require\\(([^)]*)\\)\\.([a-zA-Z]*)",
             "replace": "import { \\3 as \\1 } from \\2",
             "greedy": true,
             "case": true
@@ -95,6 +113,16 @@
             "replace": "}",
             "greedy": true,
             "case": true
+        },
+        "react_es6_component_class_static_child": {
+          "find": "(^  statics\\:)(?:[\\s\\n]*)\\{(.*)(^    )([a-zA-Z]*)(?:\\:[\\s]*)(.*)(^  \\})",
+          "replace": "\\1 {\\2\\3static \\4 = \\5",
+          "dotall": true,
+          "greedy": false
+        },
+        "react_es6_component_class_statics": {
+          "find": "^  statics:(?:[\\s\\n]*)\\{(^\\n  \\})\\n  \\}",
+          "replace": ""
         },
         "react_es6_component_class_commas": {
             "find": "^  \\},([\\s]*)([a-z]+)",

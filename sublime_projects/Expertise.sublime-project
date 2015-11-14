@@ -1,0 +1,34 @@
+{
+	"folders":
+	[
+        {
+            "name": "frontends/flux",
+            "path": "~/code/expertise/Nemesis/frontends/flux"
+        },
+        {
+            "name": "Nemesis/nemesis",
+            "path": "~/code/expertise/Nemesis/nemesis"
+        },
+        {
+            "name": "~/code/expertise",
+            "path": "~/code/expertise"
+        },
+        // a shortcut to the nginx config files
+        {
+            "name": "nginx-conf (/usr/local/etc/nginx/*.conf)",
+            "path": "/usr/local/etc/nginx",
+            "file_include_patterns": ["*.conf"]
+        },
+    ],
+
+    "settings":
+    {
+        "tab_size": 2,
+        "detect_indentation": false,
+        "draw_white_space": "all",
+        "ensure_newline_at_eof_on_save": true,
+        "translate_tabs_to_spaces": true,
+        "trim_trailing_white_space_on_save": true
+    },
+
+}

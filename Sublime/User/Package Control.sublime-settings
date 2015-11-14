@@ -1,15 +1,19 @@
 {
+	"bootstrapped": true,
 	"in_process_packages":
 	[
 	],
 	"installed_packages":
 	[
 		"AAAPackageDev",
+		"Babel",
 		"Base16 Color Schemes",
 		"Color Highlighter",
 		"ColorPicker",
+		"CSScomb",
 		"DocBlockr",
 		"doTjs Template Syntax Highlighting",
+		"EditorConfig",
 		"Fix Mac Path",
 		"Git",
 		"GitGutter",
@@ -19,17 +23,22 @@
 		"HTML-CSS-JS Prettify",
 		"Javascript Beautify",
 		"JavaScript Completions",
+		"JavaScriptNext - ES6 Syntax",
 		"Jinja2",
-		"JSHint",
-		"JSHint Gutter",
+		"JSX",
 		"LESS",
 		"Less2Css",
+		"MarkdownEditing",
 		"Package Control",
 		"PackageResourceViewer",
+		"RegReplace",
+		"Sass",
+		"SCSS",
 		"SideBarEnhancements",
-		"SublimeCodeIntel",
+		"SublimeERB",
 		"SublimeLinter",
-		"SublimeLinter-jshint",
+		"SublimeLinter-contrib-eslint",
+		"tern_for_sublime",
 		"Theme - Soda"
 	]
 }
