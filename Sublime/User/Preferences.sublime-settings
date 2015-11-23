@@ -1,4 +1,10 @@
 {
+	"binary_file_patterns":
+	[
+		"build/*",
+		"build_server/*",
+		"node_modules/*"
+	],
 	"bold_folder_labels": true,
 	"codeintel_syntax_map":
 	{
@@ -25,6 +31,5 @@
 	"theme": "Soda Dark 3.sublime-theme",
 	"translate_tabs_to_spaces": true,
 	"trim_trailing_white_space_on_save": true,
-	"word_wrap": true,
-  "binary_file_patterns": ["build/*", "build_server/*", "node_modules/*"]
+	"word_wrap": true
 }
