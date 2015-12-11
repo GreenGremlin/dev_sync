@@ -2,6 +2,8 @@
 	"extensions":
 	[
 		".eslintrc",
-		"sublime-commands"
+		"sublime-commands",
+		".modernizrrc",
+		".babelrc"
 	]
 }

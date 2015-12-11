@@ -32,5 +32,7 @@
             {"key": "panel", "operand": "replace"},
             {"key": "panel_has_focus"}
         ]
-    }
+    },
+    { "keys": ["ctrl+super+]"], "command": "snap_lines_to_indent_level", "args": { "snap_direction": 1 }  },
+    { "keys": ["ctrl+super+["], "command": "snap_lines_to_indent_level", "args": { "snap_direction": -1 } }
 ]
