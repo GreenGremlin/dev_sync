@@ -20,6 +20,8 @@
 	"ignored_packages":
 	[
 		"Markdown",
+		"PHP Codebeautifier",
+		"Theme - SoDaReloaded",
 		"Vintage"
 	],
 	"line_padding_bottom": 1,
