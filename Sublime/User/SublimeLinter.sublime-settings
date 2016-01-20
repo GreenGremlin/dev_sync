@@ -11,6 +11,19 @@
                 "@disable": false,
                 "args": [],
                 "excludes": []
+            },
+            "pep8": {
+                "@disable": false,
+                "args": [],
+                "excludes": [],
+                "ignore": "",
+                "max-line-length": null,
+                "select": ""
+            },
+            "pyflakes": {
+                "@disable": false,
+                "args": [],
+                "excludes": []
             }
         },
         "mark_style": "outline",

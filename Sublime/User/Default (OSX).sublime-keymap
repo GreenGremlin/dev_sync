@@ -33,6 +33,24 @@
             {"key": "panel_has_focus"}
         ]
     },
-    { "keys": ["ctrl+super+]"], "command": "snap_lines_to_indent_level", "args": { "snap_direction": 1 }  },
-    { "keys": ["ctrl+super+["], "command": "snap_lines_to_indent_level", "args": { "snap_direction": -1 } }
+    {
+        "keys": ["ctrl+super+shift+]"],
+        "command": "snap_lines_to_indent_level",
+        "args": { "snap_direction": 1 }
+    },
+    {
+        "keys": ["ctrl+super+shift+["],
+        "command": "snap_lines_to_indent_level",
+        "args": { "snap_direction": -1 }
+    },
+    {
+        "keys": ["ctrl+super+]"],
+        "command": "incremental_indent",
+        "args": { "increment_distance": 1 }
+    },
+    {
+        "keys": ["ctrl+super+["],
+        "command": "incremental_indent",
+        "args": { "increment_distance": -1 }
+    }
 ]

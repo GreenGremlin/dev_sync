@@ -1,14 +1,16 @@
 {
-    "extensions":
-    [
-        "sh",
-        "bats",
-        "bash",
-        "zsh",
-        "bash_aliases",
-        "bash_profile",
-        "bashrc",
-        "bash_colors",
-        "bash_functions"
-    ]
+	"extensions":
+	[
+		"sh",
+		"bats",
+		"bash",
+		"zsh",
+		"bash_aliases",
+		"bash_profile",
+		"bashrc",
+		"bash_colors",
+		"bash_functions",
+		".env",
+		"env"
+	]
 }
