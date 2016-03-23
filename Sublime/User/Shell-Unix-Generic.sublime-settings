@@ -11,6 +11,10 @@
 		"bash_colors",
 		"bash_functions",
 		".env",
-		"env"
+		"env",
+		"bash-colors",
+		".nemesis-env-overrides",
+		"nem-chromedriver",
+		".rc"
 	]
 }

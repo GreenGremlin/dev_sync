@@ -2,23 +2,70 @@
 	"folders":
 	[
         {
-            "name": "frontends/flux",
+            "name": "/",
+            "path": "~/code/expertise/Nemesis"
+        },
+        {
+            "name": "fe ->",
             "path": "~/code/expertise/Nemesis/frontends/flux"
         },
         {
-            "name": "Nemesis/nemesis",
+            "name": "fe -> css",
+            "path": "~/code/expertise/Nemesis/frontends/flux/css"
+        },
+        {
+            "name": "fe -> js",
+            "path": "~/code/expertise/Nemesis/frontends/flux/js"
+        },
+        {
+            "name": "fe -> js -> components",
+            "path": "~/code/expertise/Nemesis/frontends/flux/js/components"
+        },
+        {
+            "name": "fe -> js -> actions",
+            "path": "~/code/expertise/Nemesis/frontends/flux/js/actions"
+        },
+        {
+            "name": "fe -> js -> stores",
+            "path": "~/code/expertise/Nemesis/frontends/flux/js/stores"
+        },
+        {
+            "name": "fe -> js -> datasources",
+            "path": "~/code/expertise/Nemesis/frontends/flux/js/datasources"
+        },
+        {
+            "name": "api ->",
             "path": "~/code/expertise/Nemesis/nemesis"
         },
         {
-            "name": "~/code/expertise",
-            "path": "~/code/expertise"
+            "name": "api -> webapp",
+            "path": "~/code/expertise/Nemesis/nemesis/webapp"
+        },
+        {
+            "name": "api -> database",
+            "path": "~/code/expertise/Nemesis/nemesis/database"
+        },
+        {
+            "name": "nem (sub)",
+            "path": "~/code/expertise/nem"
+        },
+        {
+            "name": "Server-Management",
+            "path": "~/code/expertise/Server-Management"
         },
         // a shortcut to the nginx config files
         {
-            "name": "nginx-conf (/usr/local/etc/nginx/*.conf)",
+            "name": "nginx -> conf (/usr/local/etc/nginx/*.conf)",
             "path": "/usr/local/etc/nginx",
             "file_include_patterns": ["*.conf"]
         },
+        // a shortcut to the nginx config files
+        {
+            "name": "~/.nemesis-env*",
+            "path": "~/",
+            "folder_exclude_patterns": ["*"],
+            "file_include_patterns": ["*.nemesis-env*"]
+        }
     ],
 
     "settings":

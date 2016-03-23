@@ -5,19 +5,15 @@ export BASH_CONF="bash_profile"
 
 export HOMEBREW_GITHUB_API_TOKEN="6095ad71e3a744c975f142607a4335df8d87cb48"
 
-DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
-CODE_DIR="/users/jonathan/code"
+RELATIVE_PATH="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+CODE_DIR="$HOME/code"
 
 export VIRTUALENVWRAPPER_VIRTUALENV_ARGS='--no-site-packages'
 export WORKON_HOME=~/.virtualenvs
 
-if [ -f "/Users/jonathan/bin/virtualenvwrapper_lazy.sh" ]; then
-    . "/Users/jonathan/bin/virtualenvwrapper_lazy.sh"
-fi
+[ -r "$HOME/bin/virtualenvwrapper_lazy.sh" ] && . "$HOME/bin/virtualenvwrapper_lazy.sh"
 
-if [ -f "$DIR/bash_colors" ]; then
-    . "$DIR/bash_colors"
-fi
+[ -r "$RELATIVE_PATH/bash_colors" ] && . "$RELATIVE_PATH/bash_colors"
 
 #OS X specific
 export CLICOLOR=1
@@ -109,17 +105,11 @@ alias alert='notify-send --urgency=low -i "$([ $? = 0 ] && echo terminal || echo
 # You may want to put all your additions into a separate file like
 # ~/.bash_aliases, instead of adding them here directly.
 # See /usr/share/doc/bash-doc/examples in the bash-doc package.
-if [ -f "$DIR/bash_functions" ]; then
-    . "$DIR/bash_functions"
-fi
+[ -r "$RELATIVE_PATH/bash_functions" ] && . "$RELATIVE_PATH/bash_functions"
 
-if [ -f "$DIR/bash_aliases" ]; then
-    . "$DIR/bash_aliases"
-fi
+[ -r "$RELATIVE_PATH/bash_aliases" ] && . "$RELATIVE_PATH/bash_aliases"
 
-if [ -f "$CODE_DIR/expertise/config_templates/expertise.bashrc" ]; then
-    . "$CODE_DIR/expertise/config_templates/expertise.bashrc"
-fi
+[ -r "$CODE_DIR/expertise/config_templates/expertise.bashrc" ] && . "$CODE_DIR/expertise/config_templates/expertise.bashrc"
 
 # enable programmable completion features (you don't need to enable
 # this, if it's already enabled in /etc/bash.bashrc and /etc/profile
@@ -127,17 +117,13 @@ fi
 # if [ -f /etc/bash_completion ] && ! shopt -oq posix; then
 #     . /etc/bash_completion
 # fi
-if [ -f `brew --prefix`/etc/bash_completion ]; then
-    . `brew --prefix`/etc/bash_completion
-fi
+[ -r `brew --prefix`/etc/bash_completion ] && . `brew --prefix`/etc/bash_completion
 
-if [ -f ~/Scripts/.git-completion.bash ]; then
-    . ~/Scripts/.git-completion.bash
-fi
+[ -r ~/Scripts/.git-completion.bash ] && . ~/Scripts/.git-completion.bash
 
-if [ -f ~/.bashrc ]; then
-    . ~/.bashrc
-fi
+# if [ -f ~/.bashrc ]; then
+#     . ~/.bashrc
+# fi
 
 # autocompletion
 if type "grunt" > /dev/null; then
@@ -169,5 +155,5 @@ xterm*|rxvt*)
     ;;
 esac
 
-[[ -s ~/.nvm/nvm.sh ]] && . ~/.nvm/nvm.sh # This loads NVM
+# [[ -s ~/.nvm/nvm.sh ]] && . ~/.nvm/nvm.sh # This loads NVM
 

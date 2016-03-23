@@ -1,6 +1,0 @@
-
-############
-# Navigation
-alias cdr='cd ~/code/rei.com'
-alias cdow='cd ~/code/rei.com/online/online-web'
-alias cdco='cd ~/code/rei.com/online/online-web/src/main/static/pages/checkout'
