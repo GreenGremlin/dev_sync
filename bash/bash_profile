@@ -111,9 +111,9 @@ fi
 [ -r $HOME/Scripts/.git-completion.bash ] && . $HOME/Scripts/.git-completion.bash
 
 # autocompletion
-if [[ -x "$(command -v grunt)" ]] && eval "$(grunt --completion=bash)"
-if [[ -x "$(command -v gulp)" ]] && eval "$(gulp --completion=bash)"
-# if [[ -x "$(command -v npm)" ]] && eval "$(npm --completion=bash)"
+[[ -x "$(command -v grunt)" ]] && eval "$(grunt --completion=bash)"
+[[ -x "$(command -v gulp)" ]] && eval "$(gulp --completion=bash)"
+# [[ -x "$(command -v npm)" ]] && eval "$(npm --completion=bash)"
 
 export EDITOR="vim"
 
