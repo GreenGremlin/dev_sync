@@ -1,19 +1,16 @@
-# ~/.bashrc: executed by bash(1) for non-login shells.
+# $HOME/.bashrc: executed by bash(1) for non-login shells.
 # see /usr/share/doc/bash/examples/startup-files (in the package bash-doc)
 # for examples
 export BASH_CONF="bash_profile"
 
 export HOMEBREW_GITHUB_API_TOKEN="6095ad71e3a744c975f142607a4335df8d87cb48"
 
-RELATIVE_PATH="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
-CODE_DIR="$HOME/code"
-
 export VIRTUALENVWRAPPER_VIRTUALENV_ARGS='--no-site-packages'
-export WORKON_HOME=~/.virtualenvs
+export WORKON_HOME=$HOME/.virtualenvs
 
 [ -r "$HOME/bin/virtualenvwrapper_lazy.sh" ] && . "$HOME/bin/virtualenvwrapper_lazy.sh"
 
-[ -r "$RELATIVE_PATH/bash_colors" ] && . "$RELATIVE_PATH/bash_colors"
+[ -r "$SYNC_DIR/bash_colors" ] && . "$SYNC_DIR/bash_colors"
 
 #OS X specific
 export CLICOLOR=1
@@ -87,7 +84,7 @@ unset color_prompt force_color_prompt
 
 # enable color support of ls and also add handy aliases
 if [ -x /usr/bin/dircolors ]; then
-    test -r ~/.dircolors && eval "$(dircolors -b ~/.dircolors)" || eval "$(dircolors -b)"
+    test -r $HOME/.dircolors && eval "$(dircolors -b $HOME/.dircolors)" || eval "$(dircolors -b)"
     alias ls='ls --color=auto'
     #alias dir='dir --color=auto'
     #alias vdir='vdir --color=auto'
@@ -101,29 +98,17 @@ fi
 #   sleep 10; alert
 alias alert='notify-send --urgency=low -i "$([ $? = 0 ] && echo terminal || echo error)" "$(history|tail -n1|sed -e '\''s/^\s*[0-9]\+\s*//;s/[;&|]\s*alert$//'\'')"'
 
-# Alias definitions.
-# You may want to put all your additions into a separate file like
-# ~/.bash_aliases, instead of adding them here directly.
-# See /usr/share/doc/bash-doc/examples in the bash-doc package.
-[ -r "$RELATIVE_PATH/bash_functions" ] && . "$RELATIVE_PATH/bash_functions"
+[ -r "$SYNC_DIR/bash_functions" ] && . "$SYNC_DIR/bash_functions"
 
-[ -r "$RELATIVE_PATH/bash_aliases" ] && . "$RELATIVE_PATH/bash_aliases"
+[ -r "$SYNC_DIR/bash_aliases" ] && . "$SYNC_DIR/bash_aliases"
 
-[ -r "$CODE_DIR/expertise/config_templates/expertise.bashrc" ] && . "$CODE_DIR/expertise/config_templates/expertise.bashrc"
+if [[ "$OSTYPE" == "darwin"* ]]; then
+    [ -r `brew --prefix`/etc/bash_completion ] && . `brew --prefix`/etc/bash_completion
+else
+    [ -r /etc/bash_completion ] && . /etc/bash_completion
+fi
 
-# enable programmable completion features (you don't need to enable
-# this, if it's already enabled in /etc/bash.bashrc and /etc/profile
-# sources /etc/bash.bashrc).
-# if [ -f /etc/bash_completion ] && ! shopt -oq posix; then
-#     . /etc/bash_completion
-# fi
-[ -r `brew --prefix`/etc/bash_completion ] && . `brew --prefix`/etc/bash_completion
-
-[ -r ~/Scripts/.git-completion.bash ] && . ~/Scripts/.git-completion.bash
-
-# if [ -f ~/.bashrc ]; then
-#     . ~/.bashrc
-# fi
+[ -r $HOME/Scripts/.git-completion.bash ] && . $HOME/Scripts/.git-completion.bash
 
 # autocompletion
 if type "grunt" > /dev/null; then
@@ -140,9 +125,7 @@ fi
 
 export EDITOR="vim"
 
-if [ -f ~/bin/subl ]; then
-    export VISUAL="$HOME/bin/subl"
-fi
+[ -r $HOME/bin/subl ] && export VISUAL="$HOME/bin/subl"
 
 # Sets the title of my terminal. This is important if you use tabs. Notice that the git branch
 # is at the beginning
@@ -155,5 +138,5 @@ xterm*|rxvt*)
     ;;
 esac
 
-# [[ -s ~/.nvm/nvm.sh ]] && . ~/.nvm/nvm.sh # This loads NVM
+# [[ -s $HOME/.nvm/nvm.sh ]] && . $HOME/.nvm/nvm.sh # This loads NVM
 
