@@ -7,10 +7,8 @@ export HOMEBREW_GITHUB_API_TOKEN="6095ad71e3a744c975f142607a4335df8d87cb48"
 
 export VIRTUALENVWRAPPER_VIRTUALENV_ARGS='--no-site-packages'
 export WORKON_HOME=$HOME/.virtualenvs
-
-[ -r "$HOME/bin/virtualenvwrapper_lazy.sh" ] && . "$HOME/bin/virtualenvwrapper_lazy.sh"
-
-[ -r "$SYNC_DIR/bash_colors" ] && . "$SYNC_DIR/bash_colors"
+[[ -r "$HOME/bin/virtualenvwrapper_lazy.sh" ]] && . "$HOME/bin/virtualenvwrapper_lazy.sh"
+[[ -r "$SYNC_DIR/bash/bash_colors" ]] && . "$SYNC_DIR/bash/bash_colors"
 
 #OS X specific
 export CLICOLOR=1
@@ -38,7 +36,7 @@ shopt -s checkwinsize
 [ -x /usr/bin/lesspipe ] && eval "$(SHELL=/bin/sh lesspipe)"
 
 # set variable identifying the chroot you work in (used in the prompt below)
-if [ -z "$debian_chroot" ] && [ -r /etc/debian_chroot ]; then
+if [ -z "$debian_chroot" ] && [[ -r /etc/debian_chroot ]]; then
     debian_chroot=$(cat /etc/debian_chroot)
 fi
 
@@ -97,18 +95,16 @@ fi
 # Add an "alert" alias for long running commands.  Use like so:
 #   sleep 10; alert
 alias alert='notify-send --urgency=low -i "$([ $? = 0 ] && echo terminal || echo error)" "$(history|tail -n1|sed -e '\''s/^\s*[0-9]\+\s*//;s/[;&|]\s*alert$//'\'')"'
-
-[ -r "$SYNC_DIR/bash_functions" ] && . "$SYNC_DIR/bash_functions"
-
-[ -r "$SYNC_DIR/bash_aliases" ] && . "$SYNC_DIR/bash_aliases"
+[[ -r "$SYNC_DIR/bash/bash_functions" ]] && . "$SYNC_DIR/bash/bash_functions"
+[[ -r "$SYNC_DIR/bash/bash_aliases" ]] && . "$SYNC_DIR/bash/bash_aliases"
 
 if [[ "$OSTYPE" == "darwin"* ]]; then
     [ -r `brew --prefix`/etc/bash_completion ] && . `brew --prefix`/etc/bash_completion
 else
-    [ -r /etc/bash_completion ] && . /etc/bash_completion
+    [[ -r /etc/bash_completion ]] && . /etc/bash_completion
 fi
 
-[ -r $HOME/Scripts/.git-completion.bash ] && . $HOME/Scripts/.git-completion.bash
+[[ -r $HOME/Scripts/.git-completion.bash ]] && . $HOME/Scripts/.git-completion.bash
 
 # autocompletion
 [[ -x "$(command -v grunt)" ]] && eval "$(grunt --completion=bash)"
@@ -117,7 +113,7 @@ fi
 
 export EDITOR="vim"
 
-[ -r $HOME/bin/subl ] && export VISUAL="$HOME/bin/subl"
+[[ -r $HOME/bin/subl ]] && export VISUAL="$HOME/bin/subl"
 
 # Sets the title of my terminal. This is important if you use tabs. Notice that the git branch
 # is at the beginning
