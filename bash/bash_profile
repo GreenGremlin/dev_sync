@@ -3,8 +3,6 @@
 # for examples
 export BASH_CONF="bash_profile"
 
-export HOMEBREW_GITHUB_API_TOKEN="6095ad71e3a744c975f142607a4335df8d87cb48"
-
 export VIRTUALENVWRAPPER_VIRTUALENV_ARGS='--no-site-packages'
 export WORKON_HOME=$HOME/.virtualenvs
 [[ -r "$HOME/bin/virtualenvwrapper_lazy.sh" ]] && . "$HOME/bin/virtualenvwrapper_lazy.sh"
