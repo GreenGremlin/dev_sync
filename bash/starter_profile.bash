@@ -1,4 +1,4 @@
-SYNC_DIR="~/code/dev_sync"
+export SYNC_DIR="$HOME/code/dev_sync"
 
 # Alias definitions.
 # You may want to put all your additions into a separate file like
@@ -16,23 +16,23 @@ if [ -f ~/.bashrc ]; then
     . ~/.bashrc
 fi
 
-export JAVA_HOME="$(/usr/libexec/java_home -v 1.7)"
+# export JAVA_HOME="$(/usr/libexec/java_home -v 1.7)"
 
 # Setting PATH for Python 2.7
 # The orginal version is saved in .bash_profile.pysave
-PATH="/Library/Frameworks/Python.framework/Versions/2.7/bin:${PATH}"
-export PATH
+# PATH="/Library/Frameworks/Python.framework/Versions/2.7/bin:${PATH}"
+# export PATH
 
-if [ -f "$SYNC_DIR/bash/bash_profile" ]; then
-    . "$SYNC_DIR/bash/bash_profile"
+if [ -f "$SYNC_DIR/bash/profile.bash" ]; then
+    . "$SYNC_DIR/bash/profile.bash"
 fi
 
 # The next line updates PATH for the Google Cloud SDK.
-if [ -f ~/google-cloud-sdk/path.bash.inc ]; then
-    . ~/google-cloud-sdk/path.bash.inc
-fi
+# if [ -f ~/google-cloud-sdk/path.bash.inc ]; then
+#     . ~/google-cloud-sdk/path.bash.inc
+# fi
 
 # The next line enables bash completion for gcloud.
-if [ -f ~/google-cloud-sdk/completion.bash.inc ]; then
-    . ~/google-cloud-sdk/completion.bash.inc
-fi
+# if [ -f ~/google-cloud-sdk/completion.bash.inc ]; then
+#     . ~/google-cloud-sdk/completion.bash.inc
+# fi

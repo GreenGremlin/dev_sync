@@ -6,7 +6,8 @@ export BASH_CONF="bash_profile"
 export VIRTUALENVWRAPPER_VIRTUALENV_ARGS='--no-site-packages'
 export WORKON_HOME=$HOME/.virtualenvs
 [[ -r "$HOME/bin/virtualenvwrapper_lazy.sh" ]] && . "$HOME/bin/virtualenvwrapper_lazy.sh"
-[[ -r "$SYNC_DIR/bash/bash_colors" ]] && . "$SYNC_DIR/bash/bash_colors"
+[[ -r "$SYNC_DIR/bash/colors.bash" ]] && . "$SYNC_DIR/bash/colors.bash"
+[[ -r "$HOME/.iterm2_shell_integration.`basename $SHELL`" ]] && . "$HOME/.iterm2_shell_integration.`basename $SHELL`"
 
 #OS X specific
 export CLICOLOR=1
@@ -93,8 +94,8 @@ fi
 # Add an "alert" alias for long running commands.  Use like so:
 #   sleep 10; alert
 alias alert='notify-send --urgency=low -i "$([ $? = 0 ] && echo terminal || echo error)" "$(history|tail -n1|sed -e '\''s/^\s*[0-9]\+\s*//;s/[;&|]\s*alert$//'\'')"'
-[[ -r "$SYNC_DIR/bash/bash_functions" ]] && . "$SYNC_DIR/bash/bash_functions"
-[[ -r "$SYNC_DIR/bash/bash_aliases" ]] && . "$SYNC_DIR/bash/bash_aliases"
+[[ -r "$SYNC_DIR/bash/functions.bash" ]] && . "$SYNC_DIR/bash/functions.bash"
+[[ -r "$SYNC_DIR/bash/aliases.bash" ]] && . "$SYNC_DIR/bash/aliases.bash"
 
 if [[ "$OSTYPE" == "darwin"* ]]; then
     [ -r `brew --prefix`/etc/bash_completion ] && . `brew --prefix`/etc/bash_completion
@@ -125,4 +126,3 @@ xterm*|rxvt*)
 esac
 
 # [[ -s $HOME/.nvm/nvm.sh ]] && . $HOME/.nvm/nvm.sh # This loads NVM
-
