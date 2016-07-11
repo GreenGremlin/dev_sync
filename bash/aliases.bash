@@ -56,6 +56,13 @@ alias start_http='python -m SimpleHTTPServer 8000';
 ############
 # Git Aliases
 alias gs='git status'
+# alias ga='git add '
+ga () { git add "$@" && git status; }
+alias gaa='git add -A && git status'
+alias gb='git branch '
+alias gc='git commit'
+alias gd='git diff'
+alias go='git checkout '
 alias gf='git fetch -p && git fetch origin master:master'
 alias gmm='gf && git merge master'
 alias grm='gf && git rebase master'
