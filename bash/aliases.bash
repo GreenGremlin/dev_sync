@@ -72,7 +72,5 @@ alias gprune_fdelete='gprune_list | xargs git branch -D'
 
 ###############
 # Miscellaneous
-alias ios='/Applications/Xcode.app/Contents/Developer/Applications/iOS\ Simulator.app/Contents/MacOS/iOS\ Simulator -psn_0'
+alias ios='/Applications/Xcode.app/Contents/Developer/Applications/Simulator.app/Contents/MacOS/Simulator -psn_0'
 alias npm-exec='PATH=$(npm bin):$PATH'
-
-
