@@ -1,3 +1,4 @@
+
 # $HOME/.bashrc: executed by bash(1) for non-login shells.
 # see /usr/share/doc/bash/examples/startup-files (in the package bash-doc)
 # for examples
@@ -6,7 +7,10 @@ export BASH_CONF="bash_profile"
 export VIRTUALENVWRAPPER_VIRTUALENV_ARGS='--no-site-packages'
 export WORKON_HOME=$HOME/.virtualenvs
 [[ -r "$HOME/bin/virtualenvwrapper_lazy.sh" ]] && . "$HOME/bin/virtualenvwrapper_lazy.sh"
+
 [[ -r "$SYNC_DIR/bash/colors.bash" ]] && . "$SYNC_DIR/bash/colors.bash"
+[[ -r "$SYNC_DIR/bash/functions.bash" ]] && . "$SYNC_DIR/bash/functions.bash"
+[[ -r "$SYNC_DIR/bash/aliases.bash" ]] && . "$SYNC_DIR/bash/aliases.bash"
 [[ -r "$HOME/.iterm2_shell_integration.`basename $SHELL`" ]] && . "$HOME/.iterm2_shell_integration.`basename $SHELL`"
 
 #OS X specific
@@ -61,12 +65,11 @@ if [ -n "$force_color_prompt" ]; then
     fi
 fi
 
-#used in the prompt command below to display what git branch i'm in.
-function parse_git_branch {
-    git branch --no-color 2> /dev/null | sed -e '/^[^*]/d' -e 's/* \(.*\)/(\1)/'
+set_bash_ps1() {
+  PS1="$Blue\w$Purple$(git_ps1)$(hg_ps1)\n$Color_Reset$"
 }
 
-PS1="$Blue\w$Purple \$(parse_git_branch)\n$Color_Reset$"
+set_bash_ps1
 
 # If an ssh client or connection
 if [ -n "$SSH_CLIENT" ] || [ -n "$SSH_TTY" ]; then
@@ -94,8 +97,6 @@ fi
 # Add an "alert" alias for long running commands.  Use like so:
 #   sleep 10; alert
 alias alert='notify-send --urgency=low -i "$([ $? = 0 ] && echo terminal || echo error)" "$(history|tail -n1|sed -e '\''s/^\s*[0-9]\+\s*//;s/[;&|]\s*alert$//'\'')"'
-[[ -r "$SYNC_DIR/bash/functions.bash" ]] && . "$SYNC_DIR/bash/functions.bash"
-[[ -r "$SYNC_DIR/bash/aliases.bash" ]] && . "$SYNC_DIR/bash/aliases.bash"
 
 if [[ "$OSTYPE" == "darwin"* ]]; then
     [ -r `brew --prefix`/etc/bash_completion ] && . `brew --prefix`/etc/bash_completion
@@ -116,10 +117,10 @@ export EDITOR="vim"
 
 # Sets the title of my terminal. This is important if you use tabs. Notice that the git branch
 # is at the beginning
-
 case "$TERM" in
 xterm*|rxvt*)
-    PROMPT_COMMAND='echo -ne "\033]0;$(parse_git_branch)$(pwd)\007"'
+    # PROMPT_COMMAND='echo -ne "\033]0;*$(git_ps1)$(pwd)\007"'
+    PROMPT_COMMAND=set_bash_ps1
     ;;
 *)
     ;;

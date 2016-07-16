@@ -1,3 +1,5 @@
+#!/bin/bash
+
 # some more ls aliases
 alias ll='ls -alF'
 alias la='ls -A'
@@ -69,6 +71,16 @@ alias grm='gf && git rebase master'
 alias gprune_list='git branch -r | awk '"'"'{print $1}'"'"' | egrep -v -f /dev/fd/0 <(git branch -vv | grep origin) | awk '"'"'{print $1}'"'"
 alias gprune_delete='gprune_list | xargs git branch -d'
 alias gprune_fdelete='gprune_list | xargs git branch -D'
+
+#############
+# Hg Aliases
+alias hs='hg status'
+alias hd='hg diff -r default -r tip'
+# clone an EnergySavvy repo
+hc () {
+  echo "cloning ssh://www-data@repo.evoworx.org/$1";
+  hg clone ssh://www-data@repo.evoworx.org/$1;
+}
 
 ###############
 # Miscellaneous
