@@ -1,9 +1,9 @@
 #!/bin/bash
 
 # some more ls aliases
-alias ll='ls -alF'
+alias ll='ls -halF'
 alias la='ls -A'
-alias lla='ls -AalF'
+alias lla='ls -AhalF'
 alias l='ls -CF'
 
 ################
@@ -77,9 +77,11 @@ alias gprune_fdelete='gprune_list | xargs git branch -D'
 alias hs='hg status'
 alias hd='hg diff -r default -r tip'
 # clone an EnergySavvy repo
-hc () {
-  echo "cloning ssh://www-data@repo.evoworx.org/$1";
-  hg clone ssh://www-data@repo.evoworx.org/$1;
+# alias hc='hg clone'
+
+function hc {
+  echo "cloning ssh://repo.evoworx.org/$1";
+  hg clone ssh://evo/$1;
 }
 
 ###############
