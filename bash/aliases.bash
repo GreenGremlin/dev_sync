@@ -5,6 +5,7 @@ alias ll='ls -halF'
 alias la='ls -A'
 alias lla='ls -AhalF'
 alias l='ls -CF'
+alias lu='du -hd 1'
 
 ################
 # System Aliases
