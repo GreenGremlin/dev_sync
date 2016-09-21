@@ -66,7 +66,7 @@ if [ -n "$force_color_prompt" ]; then
 fi
 
 set_bash_ps1() {
-  PS1="$Blue\w$Purple$(git_ps1)$(hg_ps1)\n$Color_Reset$"
+  PS1="$Blue\w$Purple$(git_ps1)$(hg_ps1)$Color_Reset\n$"
 }
 
 set_bash_ps1
