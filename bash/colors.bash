@@ -1,85 +1,87 @@
-# Reset
-MAC_COLOR_CODE_PREFIX="\[\033["
-MAC_COLOR_CODE_SUFFIX='m\]'
-LINUX_COLOR_CODE_PREFIX="\e["
-LINUX_COLOR_CODE_SUFFIX="m"
+# MAC_COLOR_CODE_PREFIX="\[\033["
+# MAC_COLOR_CODE_SUFFIX='m\]'
+# LINUX_COLOR_CODE_PREFIX="\e["
+# LINUX_COLOR_CODE_SUFFIX="m"
 
-if [[ "$OSTYPE" == "darwin"* ]]; then
-    CLR_PRE=$MAC_COLOR_CODE_PREFIX
-    CLR_SUF=$MAC_COLOR_CODE_SUFFIX
-else
-    CLR_PRE=$LINUX_COLOR_CODE_PREFIX
-    CLR_SUF=$LINUX_COLOR_CODE_SUFFIX
-fi
+# if [[ "$OSTYPE" == "darwin"* ]]; then
+#     ESC_OPEN=$MAC_COLOR_CODE_PREFIX
+#     ESC_CLOSE=$MAC_COLOR_CODE_SUFFIX
+# else
+#     ESC_OPEN=$LINUX_COLOR_CODE_PREFIX
+#     ESC_CLOSE=$LINUX_COLOR_CODE_SUFFIX
+# fi
 
-Color_Reset="${CLR_PRE}0${CLR_SUF}"     # Text Reset
+ESC_OPEN="\[\033["
+ESC_CLOSE='m\]'
+
+Color_Reset="${ESC_OPEN}0${ESC_CLOSE}"     # Text Reset
 
 # Regular Colors
-Black="${CLR_PRE}0;30${CLR_SUF}"        # Black
-Red="${CLR_PRE}0;31${CLR_SUF}"          # Red
-Green="${CLR_PRE}0;32${CLR_SUF}"        # Green
-Yellow="${CLR_PRE}0;33${CLR_SUF}"       # Yellow
-Blue="${CLR_PRE}0;34${CLR_SUF}"         # Blue
-Purple="${CLR_PRE}0;35${CLR_SUF}"       # Purple
-Cyan="${CLR_PRE}0;36${CLR_SUF}"         # Cyan
-White="${CLR_PRE}0;37${CLR_SUF}"        # White
+Black="${ESC_OPEN}0;30${ESC_CLOSE}"        # Black
+Red="${ESC_OPEN}0;31${ESC_CLOSE}"          # Red
+Green="${ESC_OPEN}0;32${ESC_CLOSE}"        # Green
+Yellow="${ESC_OPEN}0;33${ESC_CLOSE}"       # Yellow
+Blue="${ESC_OPEN}0;34${ESC_CLOSE}"         # Blue
+Purple="${ESC_OPEN}0;35${ESC_CLOSE}"       # Purple
+Cyan="${ESC_OPEN}0;36${ESC_CLOSE}"         # Cyan
+White="${ESC_OPEN}0;37${ESC_CLOSE}"        # White
 
 # Bold
-BBlack="${CLR_PRE}1;30${CLR_SUF}"       # Black
-BRed="${CLR_PRE}1;31${CLR_SUF}"         # Red
-BGreen="${CLR_PRE}1;32${CLR_SUF}"       # Green
-BYellow="${CLR_PRE}1;33${CLR_SUF}"      # Yellow
-BBlue="${CLR_PRE}1;34${CLR_SUF}"        # Blue
-BPurple="${CLR_PRE}1;35${CLR_SUF}"      # Purple
-BCyan="${CLR_PRE}1;36${CLR_SUF}"        # Cyan
-BWhite="${CLR_PRE}1;37${CLR_SUF}"       # White
+BBlack="${ESC_OPEN}1;30${ESC_CLOSE}"       # Black
+BRed="${ESC_OPEN}1;31${ESC_CLOSE}"         # Red
+BGreen="${ESC_OPEN}1;32${ESC_CLOSE}"       # Green
+BYellow="${ESC_OPEN}1;33${ESC_CLOSE}"      # Yellow
+BBlue="${ESC_OPEN}1;34${ESC_CLOSE}"        # Blue
+BPurple="${ESC_OPEN}1;35${ESC_CLOSE}"      # Purple
+BCyan="${ESC_OPEN}1;36${ESC_CLOSE}"        # Cyan
+BWhite="${ESC_OPEN}1;37${ESC_CLOSE}"       # White
 
 # Underline
-UBlack="${CLR_PRE}4;30${CLR_SUF}"       # Black
-URed="${CLR_PRE}4;31${CLR_SUF}"         # Red
-UGreen="${CLR_PRE}4;32${CLR_SUF}"       # Green
-UYellow="${CLR_PRE}4;33${CLR_SUF}"      # Yellow
-UBlue="${CLR_PRE}4;34${CLR_SUF}"        # Blue
-UPurple="${CLR_PRE}4;35${CLR_SUF}"      # Purple
-UCyan="${CLR_PRE}4;36${CLR_SUF}"        # Cyan
-UWhite="${CLR_PRE}4;37${CLR_SUF}"       # White
+UBlack="${ESC_OPEN}4;30${ESC_CLOSE}"       # Black
+URed="${ESC_OPEN}4;31${ESC_CLOSE}"         # Red
+UGreen="${ESC_OPEN}4;32${ESC_CLOSE}"       # Green
+UYellow="${ESC_OPEN}4;33${ESC_CLOSE}"      # Yellow
+UBlue="${ESC_OPEN}4;34${ESC_CLOSE}"        # Blue
+UPurple="${ESC_OPEN}4;35${ESC_CLOSE}"      # Purple
+UCyan="${ESC_OPEN}4;36${ESC_CLOSE}"        # Cyan
+UWhite="${ESC_OPEN}4;37${ESC_CLOSE}"       # White
 
 # Background
-On_Black="${CLR_PRE}40${CLR_SUF}"       # Black
-On_Red="${CLR_PRE}41${CLR_SUF}"         # Red
-On_Green="${CLR_PRE}42${CLR_SUF}"       # Green
-On_Yellow="${CLR_PRE}43${CLR_SUF}"      # Yellow
-On_Blue="${CLR_PRE}44${CLR_SUF}"        # Blue
-On_Purple="${CLR_PRE}45${CLR_SUF}"      # Purple
-On_Cyan="${CLR_PRE}46${CLR_SUF}"        # Cyan
-On_White="${CLR_PRE}47${CLR_SUF}"       # White
+On_Black="${ESC_OPEN}40${ESC_CLOSE}"       # Black
+On_Red="${ESC_OPEN}41${ESC_CLOSE}"         # Red
+On_Green="${ESC_OPEN}42${ESC_CLOSE}"       # Green
+On_Yellow="${ESC_OPEN}43${ESC_CLOSE}"      # Yellow
+On_Blue="${ESC_OPEN}44${ESC_CLOSE}"        # Blue
+On_Purple="${ESC_OPEN}45${ESC_CLOSE}"      # Purple
+On_Cyan="${ESC_OPEN}46${ESC_CLOSE}"        # Cyan
+On_White="${ESC_OPEN}47${ESC_CLOSE}"       # White
 
 # High Intensity
-IBlack="${CLR_PRE}0;90${CLR_SUF}"       # Black
-IRed="${CLR_PRE}0;91${CLR_SUF}"         # Red
-IGreen="${CLR_PRE}0;92${CLR_SUF}"       # Green
-IYellow="${CLR_PRE}0;93${CLR_SUF}"      # Yellow
-IBlue="${CLR_PRE}0;94${CLR_SUF}"        # Blue
-IPurple="${CLR_PRE}0;95${CLR_SUF}"      # Purple
-ICyan="${CLR_PRE}0;96${CLR_SUF}"        # Cyan
-IWhite="${CLR_PRE}0;97${CLR_SUF}"       # White
+IBlack="${ESC_OPEN}0;90${ESC_CLOSE}"       # Black
+IRed="${ESC_OPEN}0;91${ESC_CLOSE}"         # Red
+IGreen="${ESC_OPEN}0;92${ESC_CLOSE}"       # Green
+IYellow="${ESC_OPEN}0;93${ESC_CLOSE}"      # Yellow
+IBlue="${ESC_OPEN}0;94${ESC_CLOSE}"        # Blue
+IPurple="${ESC_OPEN}0;95${ESC_CLOSE}"      # Purple
+ICyan="${ESC_OPEN}0;96${ESC_CLOSE}"        # Cyan
+IWhite="${ESC_OPEN}0;97${ESC_CLOSE}"       # White
 
 # Bold High Intensity
-BIBlack="${CLR_PRE}1;90${CLR_SUF}"      # Black
-BIRed="${CLR_PRE}1;91${CLR_SUF}"        # Red
-BIGreen="${CLR_PRE}1;92${CLR_SUF}"      # Green
-BIYellow="${CLR_PRE}1;93${CLR_SUF}"     # Yellow
-BIBlue="${CLR_PRE}1;94${CLR_SUF}"       # Blue
-BIPurple="${CLR_PRE}1;95${CLR_SUF}"     # Purple
-BICyan="${CLR_PRE}1;96${CLR_SUF}"       # Cyan
-BIWhite="${CLR_PRE}1;97${CLR_SUF}"      # White
+BIBlack="${ESC_OPEN}1;90${ESC_CLOSE}"      # Black
+BIRed="${ESC_OPEN}1;91${ESC_CLOSE}"        # Red
+BIGreen="${ESC_OPEN}1;92${ESC_CLOSE}"      # Green
+BIYellow="${ESC_OPEN}1;93${ESC_CLOSE}"     # Yellow
+BIBlue="${ESC_OPEN}1;94${ESC_CLOSE}"       # Blue
+BIPurple="${ESC_OPEN}1;95${ESC_CLOSE}"     # Purple
+BICyan="${ESC_OPEN}1;96${ESC_CLOSE}"       # Cyan
+BIWhite="${ESC_OPEN}1;97${ESC_CLOSE}"      # White
 
 # High Intensity backgrounds
-On_IBlack="${CLR_PRE}0;100${CLR_SUF}"   # Black
-On_IRed="${CLR_PRE}0;101${CLR_SUF}"     # Red
-On_IGreen="${CLR_PRE}0;102${CLR_SUF}"   # Green
-On_IYellow="${CLR_PRE}0;103${CLR_SUF}"  # Yellow
-On_IBlue="${CLR_PRE}0;104${CLR_SUF}"    # Blue
-On_IPurple="${CLR_PRE}0;105${CLR_SUF}"  # Purple
-On_ICyan="${CLR_PRE}0;106${CLR_SUF}"    # Cyan
-On_IWhite="${CLR_PRE}0;107${CLR_SUF}"   # White
+On_IBlack="${ESC_OPEN}0;100${ESC_CLOSE}"   # Black
+On_IRed="${ESC_OPEN}0;101${ESC_CLOSE}"     # Red
+On_IGreen="${ESC_OPEN}0;102${ESC_CLOSE}"   # Green
+On_IYellow="${ESC_OPEN}0;103${ESC_CLOSE}"  # Yellow
+On_IBlue="${ESC_OPEN}0;104${ESC_CLOSE}"    # Blue
+On_IPurple="${ESC_OPEN}0;105${ESC_CLOSE}"  # Purple
+On_ICyan="${ESC_OPEN}0;106${ESC_CLOSE}"    # Cyan
+On_IWhite="${ESC_OPEN}0;107${ESC_CLOSE}"   # White
