@@ -34,18 +34,3 @@ listening () {
         lsof -n -i4TCP:$1 | grep LISTEN
     fi
 }
-
-# ReviewBoard Tools shortcuts (bash version). Add to your ~/.bashrc
-rbt-post-branch-revisions () {
-    HG_BRANCH=$(hg branch)
-    CURRENT_REV=$(hg log -r . --template '{node}\n')
-    BRANCH_PARENT_REV=$(hg log -r "parents(min(branch(($HG_BRANCH))))" --template '{node}\n')
-    rbt post $@ $BRANCH_PARENT_REV $CURRENT_REV
-}
-
-rbt-post-branch () {
-    HG_BRANCH=$(hg branch)
-    CURRENT_REV=$(hg log -r . --template '{node}\n')
-    DEFAULT_REV=$(hg log -r default --template '{node}\n')
-    rbt post $@ $DEFAULT_REV $CURRENT_REV
-}

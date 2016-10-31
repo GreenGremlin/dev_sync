@@ -13,6 +13,8 @@ export WORKON_HOME=$HOME/.virtualenvs
 [[ -r "$SYNC_DIR/bash/aliases.bash" ]] && . "$SYNC_DIR/bash/aliases.bash"
 [[ -r "$HOME/.iterm2_shell_integration.`basename $SHELL`" ]] && . "$HOME/.iterm2_shell_integration.`basename $SHELL`"
 
+[[ -r "$SYNC_DIR/bash/esv.bash" ]] && . "$SYNC_DIR/bash/esv.bash"
+
 #OS X specific
 export CLICOLOR=1
 export LSCOLORS=GxFxCxDxBxegedabagaced
@@ -66,6 +68,7 @@ if [ -n "$force_color_prompt" ]; then
 fi
 
 set_bash_ps1() {
+  history -a
   PS1="$Blue\w$Purple$(git_ps1)$(hg_ps1)$Color_Reset\n$"
 }
 
