@@ -4,6 +4,8 @@
 <dict>
 	<key>AdjustWindowForFontSizeChange</key>
 	<false/>
+	<key>AlternateMouseScroll</key>
+	<true/>
 	<key>AppleAntiAliasingThreshold</key>
 	<integer>1</integer>
 	<key>AppleScrollAnimationEnabled</key>
@@ -2478,13 +2480,15 @@
 	<key>NSWindow Frame NSFontPanel</key>
 	<string>528 393 650 350 0 0 1440 877 </string>
 	<key>NSWindow Frame Preferences</key>
-	<string>269 197 606 456 0 0 1920 1057 </string>
+	<string>269 226 606 456 0 0 1920 1057 </string>
 	<key>NSWindow Frame SUStatusFrame</key>
 	<string>-900 741 400 129 -1440 180 1440 877 </string>
 	<key>NSWindow Frame SUUpdateAlert</key>
-	<string>906 479 620 392 0 0 1920 1057 </string>
+	<string>410 373 620 392 0 0 1440 877 </string>
+	<key>NSWindow Frame SharedPreferences</key>
+	<string>232 273 1018 447 0 0 1440 877 </string>
 	<key>NSWindow Frame iTerm Window 0</key>
-	<string>390 559 570 452 0 0 1920 1057 </string>
+	<string>37 42 1403 830 0 0 1440 877 </string>
 	<key>New Bookmarks</key>
 	<array>
 		<dict>
@@ -3824,6 +3828,10 @@
 	<true/>
 	<key>NoSyncConfirmBeta</key>
 	<true/>
+	<key>NoSyncDoNotWarnBeforeMultilinePaste</key>
+	<true/>
+	<key>NoSyncDoNotWarnBeforeMultilinePaste_selection</key>
+	<integer>0</integer>
 	<key>NoSyncInstallationId</key>
 	<string>1C16C2FE-4186-45D1-A491-05F3DEFA41B2</string>
 	<key>NoSyncNeverRemindPrefsChangesLostForFile</key>
@@ -3882,7 +3890,7 @@
 	<key>SUHasLaunchedBefore</key>
 	<true/>
 	<key>SULastCheckTime</key>
-	<date>2016-07-14T00:13:02Z</date>
+	<date>2016-10-25T03:57:44Z</date>
 	<key>SUSendProfileInfo</key>
 	<false/>
 	<key>ShowFullScreenTabBar</key>
@@ -3904,7 +3912,7 @@
 	<key>findRegex_iTerm</key>
 	<false/>
 	<key>iTerm Version</key>
-	<string>3.0.4</string>
+	<string>3.0.10</string>
 	<key>kCPKSelectionViewPreferredModeKey</key>
 	<integer>0</integer>
 	<key>kCPKSelectionViewShowHSBTextFieldsKey</key>
